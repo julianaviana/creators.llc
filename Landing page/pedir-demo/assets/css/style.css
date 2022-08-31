@@ -1,0 +1,21 @@
+@font-face { font-family: "SF Pro Display Bold"; src: url("../fonts/SF-Pro-Display-Bold.OTF") format("opentype"); }
+@font-face { font-family: "SF Pro Display Medium"; src: url("../fonts/SF-Pro-Display-Medium.OTF") format("opentype"); }
+@font-face { font-family: "SF Pro Display"; src: url("../fonts/SF-Pro-Display-Regular.OTF") format("opentype"); }
+h1 { color: #fff; }
+
+h1 { font-family: 'SF Pro Display Bold'; font-size: 48px; line-height: 57px; }
+
+p, input, select { font-family: 'SF Pro Display'; }
+
+input, select { font-size: 18px; line-height: 21px; color: #5D6472; }
+
+body { background: #111; }
+
+header { padding: 57px 0 90px; }
+
+img { max-width: 100%; }
+
+.first-section form { background: #1C1E25; border-radius: 24px; padding: 32px; }
+.first-section form input, .first-section form select { background: #272A33; border-radius: 16px; padding: 20px; width: 100%; border: none; margin-bottom: 16px; }
+.first-section form .btn-form { background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%); border-radius: 100px; padding: 16px; width: 100%; margin-top: 19px; font-size: 18px; line-height: 22px; text-align: center; color: #FFF; }
+.first-section form p { font-size: 13px; line-height: 16px; color: #686868; margin-top: 32px; }
