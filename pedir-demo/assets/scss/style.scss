@@ -134,6 +134,7 @@ footer{
 
     .row{
         padding: 70px 0;
+        align-items: baseline;
     }
 
     .list-terms{
@@ -188,8 +189,6 @@ footer{
         margin-top: 100px;
 
         .row{
-            align-items: baseline;
-
             .list-terms{
                 a{
                     margin: 0 20px 0 0;
