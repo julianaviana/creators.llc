@@ -4,9 +4,7 @@ body{
     background: #111;
 }
 
-header{
-    padding: 57px 0 90px;
-}
+
 
 a{
     text-decoration: none;
@@ -18,6 +16,10 @@ img{
 
 .row{
     align-items: center;
+}
+
+header{
+    padding: 57px 0 80px;
 }
 
 .first-section{
@@ -149,6 +151,8 @@ footer{
     }
 
     .social-media{
+        display: flex;
+        justify-content: flex-end;
         a{
             img{
                 padding: 0 5px;
