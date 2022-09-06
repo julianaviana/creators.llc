@@ -1,3 +1,4 @@
+
 $('.carousel').flickity({
   // options
   cellAlign: 'left',
@@ -17,3 +18,15 @@ $('.button-group .button--previous').on( 'click', function() {
 $('.button-group .button--next').on( 'click', function() {
   $carousel.flickity('next');
 });
+
+var lastScrollTop = 500;
+ $(window).on('scroll', function() {
+    var st = $(this).scrollTop();
+   if(st < lastScrollTop) {
+    $(".cases").addClass("aos-animate");
+   }
+   else {
+    $(".cases").removeClass("aos-animate");
+   }
+   lastScrollTop = st;
+ });

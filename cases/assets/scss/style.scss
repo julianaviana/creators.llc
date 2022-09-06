@@ -8,17 +8,19 @@ a{
     text-decoration: none;
 }
 
-img{
-    max-width: 100%;
-}
+// img{
+//     max-width: 100%;
+// }
 
 .row{
     align-items: center;
 }
 
 header{
-    padding: 50px 0 80px;
 
+    .menu{
+        padding: 50px 0 80px;
+    }
     .navbar-expand-lg .navbar-collapse{
         justify-content: end;
 
@@ -63,7 +65,107 @@ header{
         }
     }
 
+    h2{
+        font-size: 22px;
+        line-height: 130%;
+        width: 40%;
+    }
 
+}
+
+.first-section{
+    .google{
+        background: url(./assets/image/google-case.png) no-repeat top right 1.5%;
+        align-items: center !important;
+
+        .content-area{
+            width: 50%;
+        }
+    }
+}
+
+.second-section{
+    .cases{
+        .row{
+            .content-area{
+                padding-left: 70px;
+            }
+            .image-cases{
+
+                img{
+                    position: relative;
+                    bottom: 4rem;
+                }
+            }
+        }
+    }
+}
+
+.third-section{
+    .cases{
+        .row{
+            .content-area{
+                padding-left: 70px;
+            }
+            .image-cases{
+
+                img{
+                    position: relative;
+                    bottom: 8rem;
+                }
+            }
+        }
+    }
+}
+
+.fourth-section{
+    .cases{
+        .row{
+            .image-cases{
+                position: relative;
+                bottom: 4rem;
+            }
+        }
+    }
+}
+
+.cases{
+    // background: #282828;
+    border-radius: 16px;
+    margin: 100px auto 160px;
+    max-height: 493px;
+    // max-width: 1080px;
+
+    &.aos-init{
+        background: #282828;
+    }
+
+    .row{
+        justify-content: center;
+        align-items: flex-start;
+    
+    }
+
+    .content-area{
+        padding: 60px 0;
+
+        .btn{
+            background: #6433FF;
+            border-radius: 10px;
+            padding: 12px 24px;
+            border: none;
+            color: #fff;
+
+            &:hover{
+                filter: drop-shadow(7px 17px 38px rgba(60, 0, 186, 0.6));
+            }
+        }
+    }
+
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    background: pink !important;
 }
 
 

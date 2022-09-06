@@ -4,8 +4,6 @@ body{
     background: #111;
 }
 
-
-
 a{
     text-decoration: none;
 }
@@ -24,35 +22,51 @@ header{
 
 .first-section{
 
-    form{
+    .form{
         background: #1C1E25;
         max-width: 440px;
         border-radius: 24px;
-        padding: 32px;
+        padding: 32px 0;
         margin: 0 auto;
 
-        input, select{
+        h3, label{
+            display: none;
+        }
+
+        input{
+            font-size: 18px;
+            line-height: 21px;
+
+            &::placeholder{
+                color: #5D6472;
+            }
+        }
+
+        input, select, .form-control{
             background: #272A33;
             border-radius: 16px;
-            padding: 20px;
+            padding: 15px;
             width: 100%;
             border: none;
-            margin-bottom: 16px;
+            color: #5D6472;
+
         }
 
         select{
-            background: #272A33 url("../image/select.svg") 94% center no-repeat;
+            background: #272A33 url("../assets/image/select.svg") 94% center no-repeat;
             appearance: none;
             -webkit-appearance: none;
             -moz-appearance: none;
+
+            font-size: 16px;
         }
 
-        .btn-form{
+        .ff-submit{
             background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
             border-radius: 100px;
             padding: 16px;
             width: 100%;
-            margin-top: 19px;
+
             border: none;
     
             font-family: "SF Pro Display Bold";
@@ -66,12 +80,53 @@ header{
             font-size: 14px;
             line-height: 18px;
             color: #686868;
+            padding: 10px 30px 0;
 
             a{
                 color: #fff;
             }
         }
+
+        img{
+            display: none;
+        }
+
+
+        .ff-form {
+
+            .ff-item {
+                padding-bottom: 16px;
+            }
+
+            .ff-section-header{
+                display: none;
+            }
+
+            .ff-description {
+                padding-top: 16px;
+                padding-bottom: 0;
+            }
+
+            .ff-success {
+                display: block;
+                padding: 20px 0 60px;
+
+                p{
+                    font-size: 18px;
+                    color: #5D6472;
+                    padding: 10px 0;
+                }
+
+                .btn{
+                    display: none;
+                }
+            }
+        }
+
+        
     }
+    
+    
 }
 
 .second-section{
@@ -80,6 +135,7 @@ header{
     img{
         margin: 0 auto;
         display: block;
+        max-height: 100px;
     }
 
     .mobile-desk{
@@ -91,7 +147,7 @@ header{
     
     .carousel-cell {
         width: 33%;
-        height: 338px;
+        height: auto;
         margin-right: 28px;
         background: #0A0A0A;
         border-radius: 16px;
@@ -172,6 +228,14 @@ footer{
                 padding: 0 5px;
             }
         }
+    }
+}
+
+// google form
+
+iframe{
+    .m7w29c.O8VmIc.tIvQIf {
+        display: none !important;
     }
 }
 
