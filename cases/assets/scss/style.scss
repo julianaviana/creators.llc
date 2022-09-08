@@ -129,6 +129,39 @@ header{
     }
 }
 
+.five-section{
+    .card{
+        background: #0A0A0A;
+        border-radius: 16px;
+        margin-right: 30px;
+        padding: 40px;
+
+        img{
+            width: 100px;
+        }
+
+        h3{
+            margin: 30px 0;
+        }
+
+        .btn{
+            background: #1E1F23;
+            border-radius: 10px;
+            padding: 16px 0;
+
+            font-size: 16px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.5px;
+            color: #FFF;
+        }
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
+
 .cases{
     // background: #282828;
     border-radius: 16px;
@@ -164,8 +197,8 @@ header{
 
 }
 
-[data-aos^=fade][data-aos^=fade].aos-animate {
-    background: pink !important;
+[data-aos^=fade][data-aos^=fade].aos-animate{
+    background: linear-gradient(99.43deg, #3600D0 8.49%, #A143FF 101.13%);
 }
 
 
@@ -185,7 +218,7 @@ footer{
         margin-top: 6px;
         text-align: left;
         text-transform: uppercase;
-        max-width: 180px;
+        max-width: 200px;
     }
 
     .logo{
@@ -240,6 +273,29 @@ footer{
 
     header {
         padding: 32px 0;
+
+        .menu{
+            // position: fixed;
+            // bottom: 0;
+            // z-index: 10;
+            padding: 0 0 16px;
+            width: 100%;
+
+            button.navbar-toggler {
+                background: linear-gradient(284.09deg, #9757FF -1.11%, #3300FF 193.48%);
+                border: none;
+                border-radius: 50%;
+                padding: 10px;
+
+                span.navbar-toggler-icon{
+                    filter: invert(1);
+                }
+            }
+        }
+
+        h2{
+            width: 100%;
+        }
     }
 
     footer{
