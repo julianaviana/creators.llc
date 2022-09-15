@@ -36,30 +36,35 @@ header{
         input{
             font-size: 18px;
             line-height: 21px;
+            color: pink;
 
             &::placeholder{
                 color: #5D6472;
+                font-weight: 700;
             }
         }
 
-        input, select, .form-control{
+        input, select{
             background: #272A33;
             border-radius: 16px;
-            padding: 15px;
+            padding: 15px 20px;
             width: 100%;
             border: none;
-            color: #5D6472;
-
+            color: #fff;
         }
 
         select{
-            background: #272A33 url("../assets/image/select.svg") 94% center no-repeat;
-            appearance: none;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-
+           &.form-control{
+            font-weight: 700;
             font-size: 16px;
+            color: #5D6472;
+            -webkit-appearance: auto;
+            -moz-appearance: auto;
+            appearance: auto;
+           }
+
         }
+        
 
         .ff-submit{
             background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
@@ -121,6 +126,16 @@ header{
                     display: none;
                 }
             }
+
+            .ff-widget-error{
+                color: #FF9B9B;
+                b{
+                    display: inline-block;
+                    background-color: #FF9B9B;
+                    line-height: normal;
+    
+                }
+            }
         }
 
         
@@ -131,6 +146,10 @@ header{
 
 .second-section{
     padding: 80px 0;
+
+    h2{
+        font-size: 23px;
+    }
 
     img{
         margin: 0 auto;
@@ -150,7 +169,7 @@ header{
     
     .carousel-cell {
         width: 33%;
-        height: auto;
+        height: 350px;
         margin-right: 28px;
         background: #0A0A0A;
         border-radius: 16px;
@@ -160,6 +179,7 @@ header{
         h3{
             font-size: 16px;
             line-height: 24px;
+            font-weight: 600;
             color: #FFF;
             opacity: 0.4;
         }
@@ -167,6 +187,7 @@ header{
         p{
             font-size: 15px;
             line-height: 20px;
+            font-weight: 600;
             color: #FFF;
 
             &.autor{
@@ -276,9 +297,23 @@ iframe{
         .row{
             .list-terms{
                 a{
-                    margin: 0 20px 0 0;
+                    display: block;
+                    margin: 10px auto;
+                    text-align: center;
                 }
             }
+
+            .social-media {
+                justify-content: flex-start;
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+
+        a, h3 {
+            margin: 0 auto;
+            display: block;
+            text-align: center;
         }
 
     }
@@ -313,10 +348,20 @@ iframe{
         overflow-x: hidden;
         padding: 50px 0 70px;
 
+        h2 {
+            width: 80%;
+            margin: 0 auto;
+            line-height: normal;
+        }
+
         .mobile-desk{
             display: block;
             position: relative;
             left: 11%;
+        }
+
+        .logos{
+            width: 80%;
         }
     }
 
@@ -331,12 +376,6 @@ iframe{
 
         .row{
             padding: 50px 0;
-            .list-terms{
-                a{
-                    display: flex;
-                    margin: 10px 0;
-                }
-            }
         }
 
         .social-media{
