@@ -42,6 +42,18 @@
             }
         }
 
+        .docusign{
+            align-items: center !important;
+            height: 329px;
+
+            position: relative;
+            bottom: 4rem;
+
+            img{
+                max-height: 540px;
+            }
+        }
+
         .cases{
             background: linear-gradient(95.76deg, #3600D0 -3.46%, #A143FF 101.28%);
             border-radius: 16px;
@@ -50,7 +62,7 @@
             .content-area{
                 padding: 80px 0;
                 h2{
-                    font-size: 34px;
+                    font-size: 32px;
                     line-height: 110%;
                     width: 100%;
                 }
@@ -147,6 +159,10 @@
             .image{
                 position: relative;
                 right: 50%;
+
+                &.docusign{
+                    right: 80%;
+                }
             }
         }
     }
@@ -209,6 +225,13 @@
 
         .carousel.is-fullscreen .carousel-cell {
             height: 100%;
+        }
+
+        .button-group{
+            .button{
+                background: transparent;
+                border: none;
+            }
           }
     }
 
@@ -446,14 +469,6 @@
 
     @media screen and (min-width: 300px) and (max-width: 767px){
         .modalvideo video {
-            width: 80%;
-            height: 200px;
-        }
-    }
-
-    @media screen and (min-width: 768px) and (max-width: 1279px){
-        .modalvideo video {
-            width: 80%;
             height: 350px;
         }
     }
