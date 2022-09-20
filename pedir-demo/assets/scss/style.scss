@@ -81,6 +81,8 @@ header{
             color: #FFF;
         }
 
+
+
         p{
             font-size: 14px;
             line-height: 18px;
@@ -115,16 +117,17 @@ header{
             .ff-success {
                 display: block;
                 padding: 20px 0 60px;
+                height: 120px;
 
                 p{
                     font-size: 18px;
                     color: #5D6472;
                     padding: 10px 0;
                 }
+            }
 
-                .btn{
-                    display: none;
-                }
+            .ff-success + div { 
+                display: none; 
             }
 
             .ff-widget-error{
@@ -137,13 +140,6 @@ header{
                 }
             }
         }
-
-        .ff-success{
-            button{
-                display: none;
-            }
-        }
-
         
     }
     
