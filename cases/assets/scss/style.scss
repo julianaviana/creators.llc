@@ -142,11 +142,13 @@ header{
 }
 
 .five-section{
+
     .card{
         background: #0A0A0A;
         border-radius: 16px;
         margin-right: 30px;
         padding: 40px;
+        height: 270px;
 
         img{
             width: 100px;
@@ -154,6 +156,7 @@ header{
 
         h3{
             margin: 30px 0;
+            font-size: 17px;
         }
 
         .btn{
@@ -175,8 +178,7 @@ header{
 }
 
 .six-section{
-    padding: 130px 0 0;
-
+    
     h2{
         width: 35%;
     }
@@ -203,7 +205,7 @@ header{
 .cases{
     // background: #282828;
     border-radius: 16px;
-    margin: 100px auto 160px;
+    margin: 100px auto 130px;
     max-height: 480px;
     // max-width: 1080px;
 
