@@ -82,14 +82,26 @@ header{
             }
 
             h2{
-                width: 65%;
+                
+                span{
+                    &::before{
+                        content: "";
+                        width: 338px;
+                        height: 13px;
+                        background-image: url(./assets/image/destaque.png);
+                        position: fixed;
+                        bottom: 53%;
+                        z-index: -1;
+                    }
+                }
             }
             .image-cases{
 
                 img{
                     position: relative;
-                    bottom: 6rem;
+                    bottom: 5.5rem;
                     max-width: 560px;
+                    right: -1.4rem;
                 }
             }
         }
@@ -101,6 +113,21 @@ header{
         .row{
             .content-area{
                 padding-left: 30px;
+
+                h2{
+                    span{
+                        &::before{
+                            content: "";
+                            width: 200px;
+                            height: 13px;
+                            background-image: url(./assets/image/destaque.png);
+                            position: fixed;
+                            bottom: 52%;
+                            z-index: -1;
+                            left: 80px;
+                        }
+                    }
+                }
             }
             .image-cases{
 
@@ -118,12 +145,27 @@ header{
         .row{
             .content-area{
                 padding-left: 30px;
+
+                h2{
+                    span{
+                        &::before{
+                            content: "";
+                            width: 380px;
+                            height: 13px;
+                            background-image: url(./assets/image/destaque.png);
+                            position: fixed;
+                            bottom: 58%;
+                            z-index: -1;
+                        }
+                    }
+                }
             }
             .image-cases{
 
                 img{
                     position: relative;
-                    bottom: 8rem;
+                    bottom: 6rem;
+                    max-height: 570px;
                 }
             }
         }
@@ -133,6 +175,20 @@ header{
 .fourth-section{
     .cases{
         .row{
+
+            h2{
+                span{
+                    &::before{
+                        content: "";
+                        width: 415px;
+                        height: 13px;
+                        background-image: url(./assets/image/destaque.png);
+                        position: fixed;
+                        bottom: 53%;
+                        z-index: -1;
+                    }
+                }
+            }
             .image-cases{
                 position: relative;
                 bottom: 4rem;
@@ -231,7 +287,8 @@ header{
             color: #fff;
 
             &:hover{
-                filter: drop-shadow(7px 17px 38px rgba(60, 0, 186, 0.6));
+                background: #fff;
+                color: #6433FF;
             }
         }
     }
@@ -241,6 +298,9 @@ header{
 [data-aos^=fade][data-aos^=fade].aos-animate{
     background-color: #3600D0;
     transition: background-color 0.5s 0.5s;
+    -webkit-transition: background-color 0.5s 0.5s;
+    -moz-transition: background-color 0.5s 0.5s;
+    -o-transition: background-color 0.5s 0.5s; 
 }
 
 
@@ -322,7 +382,7 @@ footer{
 
                         &:first-child{
                             margin-right: 0;
-                            padding: 18px 0;
+                            padding: 18px 8px 18px 0;
                         }
                     }
                 }
@@ -333,7 +393,7 @@ footer{
                     .btn{
                         background: transparent;
                         text-align: right;
-                        padding: 18px 0;
+                        padding: 18px 8px 18px 0;
                         margin-right: 0;
 
                         font-size: 24px;
@@ -418,9 +478,105 @@ footer{
             padding: 0 0 16px;
             width: 100%;
         }
+
+        h2{
+            display: none;
+        }
+    }
+
+    .first-section{
+
+        .cases{
+            .row{
+
+                h2{
+                    
+                    span{
+                        &::before{
+                            width: 250px;
+                            bottom: 60%;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .second-section{
+        .cases{
+            .row{
+
+                .content-area{
+
+                    h2{
+
+                        br{
+                            display: none;
+                        }
+                    
+                        span{
+                            &::before{
+                                width: 149px;
+                                bottom: 62%;
+                                left: 181px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .third-section{
+        .cases{
+            .row{
+
+                .content-area{
+
+                    h2{
+                    
+                        br{
+                            display: none;
+                        }
+                        span{
+                            &::before{
+                                width: 285px;
+                                bottom: 67%;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .fourth-section{
+        .cases{
+            .row{
+
+                h2{
+
+                    br{
+                        display: none;
+                    }
+                    
+                    span{
+                        &::before{
+                            width: 215px;
+                            bottom: 60%;
+                            left: 26px;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .five-section{
+
         .card {
             width: 90%;
             padding: 30px;
