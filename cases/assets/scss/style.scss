@@ -469,20 +469,37 @@ footer{
 @media only screen and (max-width: 766px){
 
     header {
-        padding: 32px 0;
+        padding: 0;
 
         .menu{
-            // position: fixed;
-            // bottom: 0;
-            // z-index: 10;
-            padding: 0 0 16px;
+            background: rgba(15, 15, 15, 0.7);
+            backdrop-filter: blur(12.5px);
+            position: fixed;
+            top: 0;
+            padding: 18px;
+            z-index: 10;
             width: 100%;
+
+            .container{
+                padding: 0;
+            }
+
+            .navbar-collapse{
+                &.show{
+                    height: 100vh;
+                }
+            }
+        }
+
+        h1{
+            margin-top: 120px;
         }
 
         h2{
             display: none;
         }
     }
+
 
     .first-section{
 
@@ -493,8 +510,7 @@ footer{
                     
                     span{
                         &::before{
-                            width: 250px;
-                            bottom: 60%;
+                            display: none;
                         }
                     }
                 }
@@ -517,9 +533,7 @@ footer{
                     
                         span{
                             &::before{
-                                width: 149px;
-                                bottom: 62%;
-                                left: 181px;
+                                display: none;
                             }
                         }
                     }
@@ -542,8 +556,7 @@ footer{
                         }
                         span{
                             &::before{
-                                width: 285px;
-                                bottom: 67%;
+                                display: none;
                             }
                         }
                     }
@@ -565,9 +578,7 @@ footer{
                     
                     span{
                         &::before{
-                            width: 215px;
-                            bottom: 60%;
-                            left: 26px;
+                            display: none;
                         }
                     }
                 }

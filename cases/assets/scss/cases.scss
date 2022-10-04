@@ -170,7 +170,7 @@
     }
 
     .fourth-section{
-        padding: 160px 0 200px;
+        padding: 100px 0;
 
         .row{
             align-items: flex-start;
@@ -404,22 +404,39 @@
 
     @media only screen and (max-width: 766px){
 
+        .cases{
+            .content-area{
+
+                h2{
+                    br{
+                        display: none;
+                    }
+                }
+            }
+        }
+
         .first-section{
             .cases{
+                height: auto;
                 .content-area {
-                    padding: 40px 20px 20px;
+                    padding: 40px 20px;
+
+                    h2{
+                        font-size: 26px;
+                    }
                 }
             }
 
-            .google{
-                img{
-                    display: block;
-                    margin: 0 auto;
-                }
+            .google, .globoplay, .docusign{
+                display: none;
             }
 
             .tags{
-                margin-top: 140px;
+                margin-top: 40px;
+
+                ul {
+                    justify-content: center;
+                }
             }
         }
         
@@ -454,7 +471,7 @@
         }
 
         .fourth-section{
-            padding: 60px 0;
+            padding: 0;
             .stories {
                 margin: 60px auto 0;
             }
