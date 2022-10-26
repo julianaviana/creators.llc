@@ -17,7 +17,18 @@ img{
 }
 
 header{
-    padding: 57px 0 80px;
+    padding: 60px 0;
+}
+
+.btn{
+    padding: 10px 24px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    min-width: 200px;
+
+    background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
+    border-radius: 100px;
 }
 
 .first-section{
@@ -26,7 +37,7 @@ header{
         background: #1C1E25;
         max-width: 440px;
         border-radius: 24px;
-        padding: 32px 0;
+        padding: 20px 0;
         margin: 0 auto;
 
         h3, label{
@@ -69,7 +80,7 @@ header{
         .ff-submit{
             background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
             border-radius: 100px;
-            padding: 16px;
+            // padding: 16px;
             width: 100%;
 
             border: none;
@@ -82,7 +93,12 @@ header{
         }
 
 
+        h6{
+            padding: 10px 15px 0;
+            color: #fff;
+            text-align: center;
 
+        }
         p{
             font-size: 14px;
             line-height: 18px;
@@ -141,6 +157,10 @@ header{
             }
         }
         
+    }
+
+    img{
+        max-width: 90%;
     }
     
 }
@@ -257,6 +277,14 @@ footer{
 }
 
 // google form
+
+label.ff-item-qs.ff-qs-html{
+    display: none !important;
+}
+
+.ff-form .ff-item {
+    padding-block: 10px !important;
+}
 
 iframe{
     .m7w29c.O8VmIc.tIvQIf {
