@@ -13,7 +13,7 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
     <title>Cases de Sucesso</title>
-    <link rel="icon" href="./assets/image/favicon.ico">
+    <<link rel="icon" href="./assets/image/favicon.svg">
 </head>
 <body id="cases">
 
@@ -45,9 +45,9 @@
                 </ul>
 
                 <div class="btn-area col-xl-5">
-                    <a class="btn" href="https://creators.llc/?newcreator=1">Contrate Creators</a>
-                    <a class="btn" href="https://creators.llc/?newclient=1">Seja Creators</a>
-                    <a class="btn purple" href="https://creators.llc/?openlogin=true">Login</a>
+                    <a class="btn" href="https://creators.llc/?newcreator=1" target="_blank">Contrate Creators</a>
+                    <a class="btn" href="https://creators.llc/?newclient=1" target="_blank">Seja Creators</a>
+                    <a class="btn purple" href="https://creators.llc/?openlogin=true" target="_blank">Login</a>
                 </div>
               </div>
 
@@ -152,19 +152,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-md-11 mb-md-5">
-                    <h3>Descrevendo aqui um segundo passo que foi tomado para começar o projeto</h3>
-                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at. 
-                        Tortor id aliquet lectus proin nibh nisl condimentum id venenatis. Orci a scelerisque 
-                        purus semper eget duis. Tincidunt dui ut ornare lectus sit. 
+                    <h3>Confira alguns dos conteúdos com melhor performance na campanha</h3>
+                    <p class="mt-3">
+                        Os conteúdos foram entregues em diferentes formatos, plataformas e narrativas. 
+                        A recomendação se da a partir da analise de dados e do perfil da comunidade do criador.
                     </p>
                     <div class="button-group">
-                        <button class="button button--previous">
-                            <img src="./assets/image/arrow-left.svg" alt="">
+                        <button class="button button--previous" aria-label="previous">
+                            <img src="./assets/image/arrow-left.svg" alt="button previous">
                         </button>
-                          <button class="button button--next">
-                            <img src="./assets/image/arrow-right.svg" alt="">
-                          </button>
+                          <button class="button button--next" aria-label="next">
+                            <img src="./assets/image/arrow-right.svg" alt="button next">
+                        </button>
                     </div>
                 </div>
                 <div class="col-xl-7 col-md-12 stories">
@@ -173,28 +172,31 @@
                             <img class="carousel-cell-image" src="./assets/image/reels-xaomi-01.jpg" alt="">
                         </div>
                         <div class="carousel-cell">
-                            <img class="carousel-cell-image" src="./assets/image/reels-xaomi-02.jpg" alt="">
-                            <div class="video">
-                                <img class="first-xaomi-reels playvideo" src="./assets/image/play.svg" width="auto" height="auto" poster="./assets/image/play.svg">
-                            </div>
+                            <a class="first-xaomi-reels">
+                                <video class="carousel-cell-image" autoplay muted loop>
+                                    <source src="./assets/image/reels-xaomi-02.mp4" type="video/mp4">
+                                </video>
+                            </a>
+                        </div>
+                        <div class="carousel-cell">
+                            <a class="third-xaomi-reels">
+                                <video class="carousel-cell-image" autoplay muted loop>
+                                    <source src="./assets/image/reels-xaomi-06.mp4" type="video/mp4">
+                                </video>
+                            </a>
+                        </div>
+                        <div class="carousel-cell">
+                            <a class="second-xaomi-reels">
+                                <video class="carousel-cell-image" autoplay muted loop>
+                                    <source src="./assets/image/reels-xaomi-04.mp4" type="video/mp4">
+                                </video>
+                            </a>
                         </div>
                         <div class="carousel-cell">
                             <img class="carousel-cell-image" src="./assets/image/reels-xaomi-03.jpg" alt="">
                         </div>
                         <div class="carousel-cell">
-                            <img class="carousel-cell-image" src="./assets/image/reels-xaomi-04.jpg" alt="">
-                            <div class="video">
-                                <img class="second-xaomi-reels playvideo" src="./assets/image/play.svg" width="auto" height="auto" poster="./assets/image/play.svg">
-                            </div>
-                        </div>
-                        <div class="carousel-cell">
                             <img class="carousel-cell-image" src="./assets/image/reels-xaomi-05.jpg" alt="">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="carousel-cell-image" src="./assets/image/reels-xaomi-06.jpg" alt="">
-                            <div class="video">
-                                <img class="third-xaomi-reels playvideo" src="./assets/image/play.svg" width="auto" height="auto" poster="./assets/image/play.svg">
-                            </div>
                         </div>
                     </div>
                 </div>
