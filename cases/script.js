@@ -87,3 +87,18 @@ $('.first-docusign-reels').click(function(){
   $('body > div > video').attr("src","./assets/image/reels-docusign-02.mp4");
 
 });
+
+//Clickbus
+
+$('.first-clickbus-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-clickbus-01.mp4");
+});
+
+$('.second-clickbus-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-clickbus-02.mp4");
+});
+

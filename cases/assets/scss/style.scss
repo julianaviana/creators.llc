@@ -204,15 +204,20 @@ header{
         border-radius: 16px;
         margin-right: 30px;
         padding: 40px;
-        height: 270px;
+        height: 310px;
 
         img{
             width: 100px;
         }
 
+        .chickbus{
+            filter: brightness(10);
+        }
+
         h3{
             margin: 30px 0;
             font-size: 17px;
+            height: 75px;
         }
 
         .btn{
@@ -347,6 +352,10 @@ footer{
             }
         }
     }
+}
+
+.flickity-viewport{
+    height: 395px !important;
 }
 
 //ipad, ipad air, ipad mini
