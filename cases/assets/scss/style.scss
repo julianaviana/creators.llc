@@ -238,7 +238,7 @@ header{
     }
 }
 
-.six-section{
+.seven-section{
     
     h2{
         width: 35%;
@@ -260,6 +260,37 @@ header{
 
     p{
         opacity: 0.6;
+    }
+}
+
+.six-section{
+    .cases{
+        .row{
+
+            h2{
+                span{
+                    &::before{
+                        content: "";
+                        width: 415px;
+                        height: 13px;
+                        background-image: url(./assets/image/destaque.png);
+                        position: fixed;
+                        bottom: 53%;
+                        z-index: -1;
+                    }
+                }
+            }
+            .image-cases{
+                position: relative;
+                bottom: 4rem;
+                right: 5rem;
+            }
+        }
+
+        .clickbus{
+            max-height: 45px;
+            filter: brightness(10);
+        }
     }
 }
 

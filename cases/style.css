@@ -82,6 +82,9 @@ input, select {
     bottom: 4rem; }
     #cases .first-section .docusign img {
       max-height: 540px; }
+  #cases .first-section .clickbus {
+    max-height: 45px;
+    filter: brightness(10); }
   #cases .first-section .cases {
     background: linear-gradient(95.76deg, #3600D0 -3.46%, #A143FF 101.28%);
     border-radius: 16px;
@@ -469,9 +472,9 @@ header h2 {
   .five-section .card:last-child {
     margin-right: 0; }
 
-.six-section h2 {
+.seven-section h2 {
   width: 35%; }
-.six-section .btn {
+.seven-section .btn {
   background: #7553E2;
   border-radius: 10px;
   padding: 16px 24px;
@@ -481,8 +484,24 @@ header h2 {
   text-align: center;
   letter-spacing: 0.5px;
   color: #FFF; }
-.six-section p {
+.seven-section p {
   opacity: 0.6; }
+
+.six-section .cases .row h2 span::before {
+  content: "";
+  width: 415px;
+  height: 13px;
+  background-image: url(./assets/image/destaque.png);
+  position: fixed;
+  bottom: 53%;
+  z-index: -1; }
+.six-section .cases .row .image-cases {
+  position: relative;
+  bottom: 4rem;
+  right: 5rem; }
+.six-section .cases .clickbus {
+  max-height: 45px;
+  filter: brightness(10); }
 
 .cases {
   border-radius: 16px;
