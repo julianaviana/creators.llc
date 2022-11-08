@@ -200,6 +200,20 @@ input, select {
   #cases .five-section {
     border-top: 1px solid #3E465F;
     padding: 90px 0 130px; }
+  #cases .six-section .btn {
+    background: #7553E2;
+    border-radius: 10px;
+    padding: 16px 24px;
+    margin: 40px 0;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFF; }
+  #cases .six-section p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #8B90A0; }
   #cases .seven-section {
     padding-bottom: 130px; }
     #cases .seven-section h2 {
