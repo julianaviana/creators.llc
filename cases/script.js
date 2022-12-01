@@ -25,6 +25,36 @@ $('.modalvideo .close').click(function(){
   $('body > div > video').attr("src","");;
 });
 
+// Google
+
+$('.first-google-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-google-01.mp4");
+  
+  });
+  
+  $('.second-google-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-google-02.mp4");
+  
+  });
+  
+  $('.third-google-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-google-03.mp4");
+  
+  });
+  
+  $('.fourth-google-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-google-04.mp4");
+  
+  });
+
 // Globoplay
 
 $('.first-globloplay-reels').click(function(){
