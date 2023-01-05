@@ -86,11 +86,11 @@ header{
                 span{
                     &::before{
                         content: "";
-                        width: 338px;
+                        width: 361px;
                         height: 13px;
                         background-image: url(./assets/image/destaque.png);
                         position: fixed;
-                        bottom: 53%;
+                        bottom: 46%;
                         z-index: -1;
                     }
                 }
