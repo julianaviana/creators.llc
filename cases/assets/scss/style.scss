@@ -54,7 +54,6 @@ header{
             line-height: 16px;
             text-align: center;
             letter-spacing: -0.5px;
-    
             color: #FFFFFF;
     
             &.purple{
@@ -238,31 +237,6 @@ header{
     }
 }
 
-.seven-section{
-    
-    h2{
-        width: 35%;
-    }
-
-    .btn{
-        background: #7553E2;
-        border-radius: 10px;
-        padding: 16px 24px;
-        margin: 40px 0;
-
-        font-size: 16px;
-        line-height: 16px;
-        text-align: center;
-        letter-spacing: 0.5px;
-        color: #FFF;
-
-    }
-
-    p{
-        opacity: 0.6;
-    }
-}
-
 .six-section{
     .cases{
         .row{
@@ -294,6 +268,30 @@ header{
     }
 }
 
+.seven-section{
+    
+    h2{
+        width: 35%;
+    }
+
+    .btn{
+        background: #7553E2;
+        border-radius: 10px;
+        padding: 16px 24px;
+        margin: 40px 0;
+
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #FFF;
+
+    }
+
+    p{
+        opacity: 0.6;
+    }
+}
+
 .cases{
     // background: #282828;
     border-radius: 16px;
@@ -316,15 +314,19 @@ header{
         padding: 100px 0 0;
 
         .btn{
-            background: #6433FF;
+            background:transparent;
             border-radius: 10px;
-            padding: 12px 24px;
+            padding: 12px 10px;
             border: none;
             color: #fff;
+            font-size: 20px;
 
             &:hover{
-                background: #fff;
-                color: #6433FF;
+                transform: scale(1.1);
+            }
+
+            img{
+                padding-left: 10px;
             }
         }
     }
