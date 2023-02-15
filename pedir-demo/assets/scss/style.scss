@@ -45,13 +45,15 @@ header{
         }
 
         input{
-            font-size: 18px;
-            line-height: 21px;
-            color: pink;
 
             &::placeholder{
-                color: #5D6472;
-                font-weight: 700;
+                color: #5C688D;
+                font-size: 16px;
+            }
+
+            &:focus{
+                background: #fff;
+                color: #3E465F;
             }
         }
 
@@ -68,11 +70,16 @@ header{
            &.form-control{
             font-weight: 700;
             font-size: 16px;
-            color: #5D6472;
+            color: #5C688D;
             -webkit-appearance: auto;
             -moz-appearance: auto;
             appearance: auto;
            }
+
+           &:focus{
+            background: #fff;
+            color: #3E465F;
+            }
 
         }
         
@@ -92,6 +99,12 @@ header{
             color: #FFF;
         }
 
+        .ff-form button{
+            span {
+                font-size: 16px;
+            }
+        }
+
 
         h3{
             font-size: 16px;
@@ -101,13 +114,13 @@ header{
 
         }
         p{
-            font-size: 14px;
-            line-height: 18px;
-            color: #686868;
+            font-size: 16px;
+            line-height: 20px;
+            color: #fff;
             padding: 10px 30px 0;
 
             a{
-                color: #fff;
+                color: #5C688D;
             }
         }
 
