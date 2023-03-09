@@ -19,3 +19,7 @@ $('.button-group .button--previous').on( 'click', function() {
 $('.button-group .button--next').on( 'click', function() {
   $carousel.flickity('next');
 });
+
+$('body').on('click', '#ff-submit-root', function() {
+  gtag('event', 'conversion', {'send_to': 'AW-626645894/hDjiCNqVhtUBEIa356oC'});
+});

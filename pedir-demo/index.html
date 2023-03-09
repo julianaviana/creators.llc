@@ -19,6 +19,27 @@
 
 <title>Agende uma demo</title>
 <link rel="icon" href="./assets/image/favicon.svg">
+
+    <!-- Google tag (gtag.js) -->
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-626645894"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-626645894');
+    </script>
+        <!-- Event snippet for Agendar demo conversion page -->
+
+    <script>
+        var thankyouMessage = 'Obrigado pela inscrição!'
+        if(document.body.innerText.includes(thankyouMessage)){
+        console.log('Reunião solicitada');
+        gtag('event', 'conversion',
+        {'send_to': 'AW-626645894/_3uLCL-ZxLwDEIa356oC'});
+        };
+    </script>
 </head>
 
 <body>
@@ -33,16 +54,6 @@
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-90265209-1', 'auto');
         ga('send', 'pageview');
-    </script>
-
-    <!-- Global site tag (gtag.js) - Google Ads: 626645894 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-626645894"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'AW-626645894');
-        gtag('config', 'AW-448730715');
     </script>
 
     <header>
