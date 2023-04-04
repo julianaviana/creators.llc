@@ -306,6 +306,44 @@ iframe{
     }
 }
 
+// Ajustes formulario RD
+
+#rd-form-lfqsenfm .bricks-form__input:not(textarea) {
+    height: 40px !important;
+    border-radius: 16px;
+    background: #272A33;
+    border: 1px solid #272A33;
+}
+
+#rd-form-lfqsenfm .with-select-flags > .phone-input-group > .phone-country {
+    background: #272A33;
+}
+
+#rd-form-lfqsenfm .select2-container .select2-choice{
+    background: #272A33 !important;
+}
+
+#rd-form-lfqsenfm .bricks-form__label{
+    margin: 10px 0;
+}
+
+#rd-form-lfqsenfm .bricks-form__label.always-visible, 
+#rd-form-lfqsenfm .bricks-form__field__option .bricks-form__label{
+    display: flex !important;
+}
+
+#rdstation-bricks-embeddable-form-bricks-component-O8UtOC1gwL_g22bCr_Aagw .bricks-form__field__option 
+.bricks-form__label input[type="checkbox"], #rdstation-bricks-embeddable-form-bricks-component-O8UtOC1gwL_g22bCr_Aagw 
+.bricks-form__field__option .bricks-form__label input[type="radio"] {
+    margin: 0px 10px 0px -1.33em !important;
+    width: 16px;
+}
+
+#rd-button-lfqsenfp {
+    border-radius: 100px !important;
+    background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
+}
+
 //ipad, ipad air, ipad mini
 
 @media only screen and (max-width: 820px){
