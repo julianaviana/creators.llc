@@ -332,11 +332,13 @@ iframe{
     display: flex !important;
 }
 
-#rdstation-bricks-embeddable-form-bricks-component-O8UtOC1gwL_g22bCr_Aagw .bricks-form__field__option 
-.bricks-form__label input[type="checkbox"], #rdstation-bricks-embeddable-form-bricks-component-O8UtOC1gwL_g22bCr_Aagw 
-.bricks-form__field__option .bricks-form__label input[type="radio"] {
+
+input#rd-radio_buttons_field-lfqukqbt_1_a_49__funcionários, 
+input#rd-radio_buttons_field-lfqukqbt_50_a_499__funcionários,
+input#rd-radio_buttons_field-lfqukqbt_500_a_4999__funcionários,
+input#rd-radio_buttons_field-lfqukqbt_Mais_de_5000__funcionários{
     margin: 0px 10px 0px -1.33em !important;
-    width: 16px;
+    width: 16px !important;
 }
 
 #rd-button-lfqsenfp {
