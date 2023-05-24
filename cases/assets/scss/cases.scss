@@ -60,6 +60,10 @@
             filter: brightness(10);
         }
 
+        .bcp{
+            max-height: 90px;
+        }
+
         .cases{
             background: linear-gradient(95.76deg, #3600D0 -3.46%, #A143FF 101.28%);
             border-radius: 16px;
@@ -110,6 +114,10 @@
                 opacity: 10;
                 color: #7553E2;
             }
+        }
+
+        a{
+            color: #7553E2;
         }
 
         // .col-xl-5{
@@ -278,6 +286,35 @@
     }
 
     .seven-section{
+        .row{
+            justify-content: end;
+
+            .highlights{
+                background: #252525;
+                border-radius: 16px;
+                height: 270px;
+                padding: 0 0 0 80px;
+                
+                display: flex;
+                align-items: center;
+
+                h2{
+                    width: 70%;
+                }
+            }
+
+            .image{
+                position: relative;
+                right: 100%;
+
+                &.docusign{
+                    right: 80%;
+                }
+            }
+        }
+    }
+
+    .eight-section{
         padding-bottom: 130px;
         h2{
             font-size: 56px;
@@ -323,6 +360,7 @@
             border: 0;
         }
     }
+
 
     .modalvideo {
         background: rgba(15, 15, 15, 0.9);
