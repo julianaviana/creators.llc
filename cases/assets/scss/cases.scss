@@ -182,7 +182,7 @@
     }
 
     .fourth-section{
-        padding: 100px 0;
+        padding: 50px 0;
 
         .row{
             align-items: flex-start;
@@ -220,6 +220,15 @@
                     }
                 }
 
+            }
+
+            .bcp{
+
+                .carousel-cell {
+                    width: 100%;
+                    margin-right: 10px;
+    
+                  }
             }
 
             .playvideo{

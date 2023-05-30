@@ -151,3 +151,65 @@ $('.modalvideo').css('display','flex');
 $('html').css('overflow-y','hidden');
 $('body > div > video').attr("src","./assets/image/reels-nubank-03.mp4");
 });
+
+// Black creators program
+
+$('.bcp-video').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/bcp-sites.mp4");
+});
+
+$('.first-bcp-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-bcp-01.mp4");
+});
+
+$('.second-bcp-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-bcp-02.mp4");
+});
+
+$('.third-bcp-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-bcp-03.mp4");
+});
+
+$('.fourth-bcp-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-bcp-04.mp4");
+});
+
+$('.five-bcp-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-bcp-05.mp4");
+});
+
+$('.six-bcp-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-bcp-06.mp4");
+});
+
+$('.seven-bcp-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-bcp-07.mp4");
+});
+
+$('.eighth-bcp-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-bcp-08.mp4");
+});
+
+$('.nine-bcp-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-bcp-09.mp4");
+});
