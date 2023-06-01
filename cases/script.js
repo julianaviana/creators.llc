@@ -160,6 +160,12 @@ $('.bcp-video').click(function(){
   $('body > div > video').attr("src","./assets/image/bcp-sites.mp4");
 });
 
+$('.second-bcp-video').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/bcp-video-01.mp4");
+});
+
 $('.first-bcp-reels').click(function(){
   $('.modalvideo').css('display','flex');
   $('html').css('overflow-y','hidden');
