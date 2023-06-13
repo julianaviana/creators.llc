@@ -6,6 +6,7 @@ body{
 
 a{
     text-decoration: none;
+    color: #fff;
 }
 
 img{
@@ -14,6 +15,12 @@ img{
 
 .row{
     align-items: center;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 40px;
+    color: #EFEBFF;
 }
 
 header{
@@ -46,7 +53,7 @@ header{
         .btn{
             background: #3E465F;
             border-radius: 10px;
-            padding: 13px 18px;
+            padding: 16px 28px;
             margin-right: 8px;
     
             font-size: 14px;
@@ -56,15 +63,15 @@ header{
             color: #FFFFFF;
     
             &.purple{
-                background: #7553E2;
-                border-radius: 10px;
+                background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
+                border-radius: 100px;
                 min-width: 89px;
             }
     
         }
     }
 
-    h2{
+    h1{
         font-weight: 700;
         font-size: 34px;
         line-height: 48px;
@@ -79,7 +86,7 @@ header{
 .btn{
     padding: 16px 40px;
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
     line-height: 22px;
     color: #fff;
@@ -95,6 +102,77 @@ header{
 .secondary{
     background: #212121;
     border-radius: 100px;
+}
+
+
+.how-works{
+    margin: 100px 0;
+
+    .tabs{
+        background: #0A0A0A;
+        border-radius: 16px;
+        padding: 60px 40px;
+        height: 400px;
+
+        .nav-tabs{
+            border: 0;
+
+            .nav-item{
+                &:first-child{
+                    margin: 0 16px 0 0;
+                }
+                .for-myProgress {
+                    width: 100%;
+                    background-color: #5C688D;
+                    margin-bottom: 20px;
+                }
+
+                .status {
+                    width: 0%;
+                    height: 3px;
+                    background-color: #ffffff;
+                    transition: all 0s ease-in-out;
+                }
+                .for-myBar-1.status .active, .for-myBar-2.status .active {
+                    width: 100%;
+                    height: 3px;
+                    background-color: #ffffff;
+                }
+
+                .for-myBar-1.status.active,.for-myBar-2.status.active {
+                    width: 100%;
+                    transition: all 6s ease-in-out;
+                }
+            }
+            .nav-link{
+                background-color: transparent;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                align-items: center;
+                color: #3E465F;
+                padding: 0 0 12px;
+                border: 0;
+
+                &.active{
+                    border-bottom: 3px solid #FFFFFF;
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        .tab-content{
+            h3{
+                font-weight: 500;
+                font-size: 26px;
+                color: #F0F0F0;
+            }
+        }
+    }
+    a{
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
 
