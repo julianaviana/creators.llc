@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: "SF Pro Display Medium";
+    font-family: "SF Pro Medium";
     src: url("./fonts/SF-Pro-Display-Medium.OTF") format("opentype");
 }
 
@@ -13,7 +13,7 @@
     src: url("./fonts/SF-Pro-Display-Regular.OTF") format("opentype");
 }
 
-h1, h2, a{
+h1, h2, h3, a{
     font-family: 'SF Pro Bold';  
 }
 
@@ -43,7 +43,7 @@ h2{
     }
 }
 
-h3, p, input, select{
+p, input, select{
     font-family: 'SF Pro Display';
 }
 

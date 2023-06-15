@@ -177,8 +177,7 @@ header{
 
 .steps{
     h3{
-        font-family: "SF Pro Bold";
-        font-size: 39.17px;
+        font-size: 39px;
         line-height: 38px;
         color: #9776FF;
     }
@@ -199,6 +198,25 @@ header{
         font-size: 18px;
         color: #FFFFFF;
         opacity: 0.6;
+    }
+
+    .number{
+        background: linear-gradient(138.79deg, #333333 -1.06%, #1F1F1F 99.2%);
+        box-shadow: inset -1px -1px 4px rgba(98, 98, 98, 0.08), inset 2px 2px 4px rgba(136, 136, 136, 0.18);
+        border-radius: 10px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 88px;
+        padding: 25px 0 10px;
+        
+         p{
+            font-weight: 800;
+            font-size: 60px;
+            color: #EFEBFF;
+         }
     }
 
     .tips{
@@ -225,6 +243,59 @@ header{
     }
 }
 
+.cta{
+    padding: 130px 0 50px;
+}
+
+.faq{
+
+    padding: 100px 0 0;
+
+    h2{
+        font-family: "SF Pro Medium";
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #E3E3E3;
+        opacity: 0.8;
+    }
+
+    .accordion{
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .accordion-button{
+        background: #232323;
+        color: #E3E3E3;
+        margin: 16px 0;
+        padding: 0 24px;
+
+        &::after{
+            filter: contrast(0.1);
+        }
+
+        &:not(.collapsed){
+            box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+            padding-bottom: 16px;
+
+        }
+    }
+
+     .accordion-item{
+        background: #232323;
+        border-radius: 16px;
+        color: #fff;
+        border: 1px solid #232323;
+        margin: 12px 0;
+        
+    }
+
+    .accordion-body{
+        padding: 8px 24px 24px;
+    }
+}
+
 
 footer{
     margin-top: 140px;
@@ -242,7 +313,7 @@ footer{
         margin-top: 6px;
         text-align: left;
         text-transform: uppercase;
-        max-width: 180px;
+        max-width: 200px;
     }
 
     .logo{
@@ -366,6 +437,14 @@ iframe{
 // smart phones 
 @media only screen and (max-width: 766px){
 
+    .btn{
+        min-width: 100%;
+    }
+
+    br{
+        display: none;
+    }
+
     header {
         padding: 0;
 
@@ -374,6 +453,7 @@ iframe{
             backdrop-filter: blur(12.5px);
             position: fixed;
             top: 0;
+            left: 0;
             padding: 18px;
             z-index: 10;
             width: 100%;
@@ -389,12 +469,50 @@ iframe{
             }
         }
 
-        h1{
-            margin-top: 120px;
+        .row{
+            img{
+                margin-top: 120px;
+            }
+
+            h1{
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 38px;
+            }
         }
 
         h2{
             display: none;
+        }
+    }
+
+    .how-works {
+        margin: 50px 0;
+
+        .tabs{
+            padding: 40px 24px;
+            height: 320px;
+            .nav-tabs{
+                .nav-link{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .cta {
+        padding: 60px 0 50px;
+    }
+
+    .faq{
+        padding: 50px 0 0;
+
+        .accordion {
+            width: 100%;
+        }
+
+        br{
+            display: block;
         }
     }
 
