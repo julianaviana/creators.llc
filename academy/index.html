@@ -41,7 +41,7 @@
         </script>
     </head>
 
-    <body class="container">
+    <body>
 
         <!-- Google Analytics -->
         <script>
@@ -55,7 +55,7 @@
             ga('send', 'pageview');
         </script>
 
-        <header>
+        <header class="container">
             <nav class="navbar navbar-expand-lg menu">
                 <a class="navbar-brand" href="https://creators.llc/" target="_blank">
                     <img class="d-none d-md-block" src="./assets/image/logo_creators.svg" alt="creators logo">
@@ -83,13 +83,16 @@
             </nav>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="./assets/image/creators-pay.svg" alt="Creators Pay">
-                    <h1 class="mt-4">
-                        Crie contratos em minutos,<br> 
-                        formalize seus projetos e garanta<br>
-                        seus recebimentos.
-                    </h1>
-
+                    <h1>Creators <span> Academy</span></h1>
+                    <h2 class="mt-4">
+                        Aceleração para Creators.<br> 
+                        Fomentação de Comunidade<br> 
+                        para empresas.
+                    </h2>
+                    <p class="mt-4">
+                        Creators Academy é o programa de aceleração de criadores de<br> 
+                        conteúdo da plataforma Creators LLC.
+                    </p>
                     <div class="d-lg-flex mt-lg-5 mt-4">
                         <a class="btn primary me-lg-3" href="https://creators.llc/?newcreator=1" target="_blank">
                             <span>
@@ -100,142 +103,167 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <spline-viewer url="https://prod.spline.design/FC08gzil6lHF-nwL/scene.splinecode" height="600"></spline-viewer>
+                    <img src="./assets/image/bg-banner-academy.png" alt="">
+                    <!-- <spline-viewer url="https://prod.spline.design/FC08gzil6lHF-nwL/scene.splinecode" height="600"></spline-viewer> -->
                 </div>
             </div>
         </header>
 
-        <section class="how-works">
-            <div class="row justify-content-around">
-                <div class="col-lg-5">
-                    <h2 class="mb-5">
-                        Creators Pay é uma ferramenta<br> 
-                        eficiente e segura para lidar com<br> 
-                        os trâmites burocráticos de uma<br> 
-                        parceria de trabalho.
-                    </h2>
-                    <a href="#step">Veja como funciona <img class="ms-3" src="./assets/image/arrow-bottom.svg" alt="" aria-hidden="true"></a>
-                </div>
-                <div class="col-9 col-lg-5 col-xxl-4 tabs mt-5 mt-lg-0">
-
-                    <img src="./assets/image/bag-icon.svg" alt="" aria-hidden="true">
-                    <ul class="nav nav-tabs mt-4" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="quem-cria-tab" data-bs-toggle="tab" data-bs-target="#quem-cria" type="button" role="tab" aria-selected="true">Para quem cria</button>
-                          <div class="for-myProgress">
-                            <div class="for-myBar-1 status"></div>
-                          </div>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="quem-contrata-tab" data-bs-toggle="tab" data-bs-target="#quem-contrata" type="button" role="tab" aria-selected="false">Para quem contrata</button>
-                          <div class="for-myProgress">
-                            <div class="for-myBar-2 status"></div>
-                          </div>
-                        </li>
-                    </ul>
-                    <div class="tab-content mt-2" id="myTabContent">
-                        <div class="tab-pane fade show active" id="quem-cria" role="tabpanel" aria-labelledby="quem-cria-tab">
-                            <h3>A certeza de que irá receber<br> 
-                                seu pagamento na data<br>
-                                 combinada.</h3>
-                        </div>
-                        <div class="tab-pane fade" id="quem-contrata" role="quem-contrata" aria-labelledby="quem-contrata-tab">
-                            <h3>A certeza de que as entregas<br> 
-                                serão de alta qualidade, no<br> prazo estabelecido.</h3>
-                        </div>
+        <section class="academy">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-4 me-lg-5 card">
+                    <div class="my-4">
+                        <img src="./assets/image/bag-icon.svg" alt="" aria-hidden="true" width="50">
+                        <h3 class="mt-4">
+                            <span>Academy</span><br>
+                            Para Contratante
+                        </h3>
                     </div>
+                    <p>
+                        Oferecemos a plataforma para você criar seu perfil se 
+                        integrar a nossa comunidade de criadores profissionais.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-4 card">
+                    <div class="my-4">
+                        <img src="./assets/image/wand-icon.svg" alt="" aria-hidden="true" width="50">
+                        <h3 class="mt-4">
+                            <span>Academy</span><br>
+                            Para Profissional
+                        </h3>
+                    </div>
+                    <p>
+                        Solução customizada para você engajar a comunidade da sua marca, 
+                        criar conteúdo de qualidade e expandir sua presença digital.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="acceleration container">
+            <h2>
+                Os programas de aceleramento<br> 
+                da Creators Academy incluem
+            </h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-3 card">
+                    <div class="d-flex justify-content-between">
+                        <h4>
+                            Treinamentos<br> 
+                            avançados
+                        </h4>
+                        <img src="./assets/image/treinamento.svg" alt="" aria-hidden="true">
+                    </div>
+                    <p>Nossos treinamentos são ministrados por especialistas reconhecidos em suas áreas. </p>
+                </div>
+                <div class="col-12 col-lg-3 card">
+                    <div class="d-flex justify-content-between">
+                        <h4>
+                            Mentoria<br> 
+                            personalizada
+                        </h4>
+                        <img src="./assets/image/mentoria.svg" alt="" aria-hidden="true">
+                    </div>
+                    <p>Nossa equipe de mentores experientes orienta os criadores em suas jornadas no programa. </p>
+                </div>
+                <div class="col-12 col-lg-3 card">
+                    <div class="d-flex justify-content-between">
+                        <h4>
+                            Financiamento<br> 
+                            exclusivo
+                        </h4>
+                        <img src="./assets/image/financiamento.svg" alt="" aria-hidden="true">
+                    </div>
+                    <p>Oportunidades únicas de financiamento para impulsionar seus projetos. </p>
                 </div>
             </div>
         </section>
 
         <section class="steps">
-            <div class="row justify-content-xl-end justify-content-around">
-                <!--step 01-->
-                <div class="col-md-11 col-lg-5">
-                    <p class="subtitle">1 de 3</p>
-                    <div class="d-flex align-items-center">
-                        <div class="number me-4 my-4">
-                            <p>1</p>
-                        </div>
-                        <h3>Envio da<br> proposta</h3>
-                    </div>
-                    <p>Para criar sua primeira proposta de<br> 
-                        contrato, basta detalhar o escopo do<br> 
-                        projeto – prazo, valor, entregas – e disparar<br> 
-                        diretamente para a contraparte.
-                    </p>
-                    <div class="tips">
-                        <h4>Dicas</h4>
+            <div class="container">
+                <h2>
+                    Como sua empresa irá fomentar sua própria<br> 
+                    comunidade de criadores de conteúdo
+                </h2>
+                <div class="row">
+                    <!--step 01-->
+                    <div class="col-11 col-lg card">
+                        <p class="number me-4 my-4">01</p>
+                        <h4>Definição do projeto</h4>
                         <p>
-                            Nossa calculadora automática ajuda você<br> 
-                            com sugestões de quanto cobrar.
+                            Queremos saber tudo para desenvolver o seu programa 
+                            de formação de criadores de conteúdo, treinamento, 
+                            beta test, criação de comunidades, mentoria e financiamento.
+                        </p>
+                    </div>
+    
+                    <!--Step 02-->
+                    <div class="col-11 col-lg card">
+                        <p class="number me-4 my-4">02</p>
+                        <h4>Programa sob medida</h4>
+                        <p>
+                            Nossa equipe cuida de cada detalhe, desde a criação do 
+                            calendário até a organização de eventos e palestras. 
+                            O seu programa será sob medida para as suas necessidades.
+                        </p>
+                    </div>
+    
+                     <!--Step 03-->
+                     <div class="col-11 col-lg card">
+                        <p class="number me-4 my-4">03</p>
+                        <h4>Captação de criadores</h4>
+                        <p>
+                            Criamos landing pages para cadastro de creators interessados 
+                            no seu programa. Nossa estratégia de marketing garante 
+                            inscrições qualificadas e engajadas.
+                        </p>
+                    </div>
+    
+                    <!--Step 04-->
+                    <div class="col-11 col-lg card">
+                        
+                        <p class="number me-4 my-4">04</p>
+                        <h4>Curadoria de Candidatos</h4>
+                        <p>
+                            Com uma curadoria cuidadosa, analisamos as habilidades, 
+                            experiência e potencial para garantir que apenas os melhores 
+                            creators sejam selecionados.
                         </p>
                     </div>
                 </div>
-                <div class="col-md-11 col-lg-5">
-                    <img class="mobile" src="./assets/image/mobile.png" alt="" aria-hidden="true">
-                </div>
+                <div class="row justify-content-center">
 
-                <!--Step 02-->
-                <div class="col-md-11 col-lg-5 d-none d-lg-block">
-                    <img class="mobile" src="./assets/image/mobile.png" alt="" aria-hidden="true">
-                </div>
-                <div class="col-md-11 col-lg-5">
-                    <p class="subtitle">2 de 3</p>
-                    <div class="d-flex align-items-center">
-                        <div class="number me-4 my-4">
-                            <p>2</p>
-                        </div>
-                        <h3>Contrato<br> gerado</h3>
+                    <!--step 05-->
+                    <div class="col-11 col-lg-3 card">
+                        <p class="number me-4 my-4">05</p>
+                        <h4>Acompanhamento e Avaliações</h4>
+                        <p>
+                            Oferecemos um acompanhamento completo das aulas e palestras ministradas. 
+                            Além disso, realizamos avaliações regulares para medir o progresso e o 
+                            desempenho dos participantes.
+                        </p>
                     </div>
-                    <p>
-                        Assim que a contraparte aprovar sua<br> 
-                        proposta, será gerado automaticamente<br> 
-                        um contrato que inclui todos os detalhes<br> 
-                        do projeto, além de Termos, Garantias e<br> 
-                        Código de Conduta livres de riscos,<br> 
-                        garantindo transparência e segurança<br> 
-                        para ambas as partes.
-                    </p>
-                </div>
-                <div class="col-md-11 col-lg-5 d-block d-lg-none">
-                    <img class="mobile" src="./assets/image/mobile.png" alt="" aria-hidden="true">
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <!--step 03-->
-                <div class="col-lg-10 col-xl-8">
-                    <p class="subtitle">3 de 3</p>
-                    <div class="d-flex align-items-center">
-                        <div class="number me-4 my-4">
-                            <p>3</p>
-                        </div>
-                        <!-- <img src="./assets/image/step-three.png" alt="Passo 1"> -->
-                        <h3>Cobrança e<br> Pagamento</h3>
+    
+                    <!--Step 02-->
+                    <div class="col-11 col-lg-3 card">
+                        <p class="number me-4 my-4">06</p>
+                        <h4>Encerramento e Certificação</h4>
+                        <p>
+                            Ao concluir o programa, realizamos uma cerimônia de encerramento. 
+                            Os participantes receberão uma certificação da Creators Academy, 
+                            que comprova suas habilidades e conhecimentos adquiridos.
+                        </p>
                     </div>
-                    <div class="row">
-                        <div class="col-md-9 col-lg-6 mt-4">
-                            <div class="d-flex align-items-center my-4">
-                                <img class="me-3" src="./assets/image/bag-icon.svg" alt="" aria-hidden="true" width="50">
-                                <h4>Para Contratante</h4>
-                            </div>
-                            <p>
-                                A cobrança é acrescida de 12% referentes<br> 
-                                ao custo de serviço da plataforma. É<br> 
-                                possível faturar em Real, Euro ou Dólar.
-                            </p>
-                        </div>
-                        <div class="col-md-9 col-lg-6">
-                            <div class="d-flex align-items-center my-4">
-                                <img class="me-3" src="./assets/image/wand-icon.svg" alt="" aria-hidden="true" width="50">
-                                <h4>Para Profissional</h4>
-                            </div>
-                            <p>
-                                O pagamento é 100% garantido conforme<br> 
-                                a proposta – ocorre no prazo de 30 dias,<br> 
-                                direto na conta bancária cadastrada.
-                            </p>
-                        </div>
+    
+                     <!--Step 02-->
+                     <div class="col-11 col-lg-3 card">
+                        <p class="number me-4 my-4">03</p>
+                        <h4>Relatório e Avaliação</h4>
+                        <p>
+                            Fornecemos um relatório com avaliações das entregas dos criadores, do conteúdo, 
+                            professores e palestrantes.. Você terá uma visão clara do impacto que o seu projeto 
+                            teve e a percepção de quem o fez.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -244,9 +272,8 @@
         <section class="cta">
            <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h2>Simplifique seu fluxo financeiro.<br> 
-                        Crie sua conta no Creators Pay
-                    </h2>
+                    <h3>Um programa personalizado para impulsionar seu crescimento digital.<br>
+                        Junte-se à Creators Academy</h3>
                     <div class="d-lg-flex my-5">
                         <a class="btn primary me-3" href="https://creators.llc/?newclient=1" target="_blank">
                             <span>Criar perfil de Contratante</span>
@@ -262,7 +289,7 @@
            </div>
         </section>
 
-        <section class="faq">
+        <!-- <section class="faq">
             <div class="accordion " id="accordionExample">
                 <h2 class="mb-5">
                     Ainda com dúvidas?<br>
@@ -345,7 +372,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <footer>
             <div class="container">

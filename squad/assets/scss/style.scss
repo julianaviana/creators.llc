@@ -28,6 +28,8 @@ header{
 
     .menu{
         padding: 50px 0 0;
+        position: relative;
+        z-index: 10;
     }
     .navbar-expand-lg .navbar-collapse{
         justify-content: end;
@@ -70,12 +72,35 @@ header{
             }
     
         }
+    } 
+
+    .row{
+        align-items: flex-start;
     }
 
     h1{
+        font-family: 'SF Pro Bold';
+        font-weight: 700;
+        font-size: 60px;
+        color: #fff;
+        margin-top: 120px;
+
+        span{
+            color: #9776FF;
+        }
+    }
+
+    h2{
         font-weight: 700;
         font-size: 34px;
         line-height: 48px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 28px;
+        color: #EFEBFF;
+        opacity: 0.7;
     }
 
     canvas#spline{
@@ -121,204 +146,81 @@ header{
     }
 }
 
-
-.how-works{
-    margin: 100px 0;
-
-    .tabs{
-        background: #0A0A0A;
-        border-radius: 16px;
-        padding: 60px 0 0 40px;
-        height: 400px;
-
-        .nav-tabs{
-            border: 0;
-
-            .nav-item{
-                &:first-child{
-                    margin: 0 16px 0 0;
-                }
-                .for-myProgress {
-                    width: 100%;
-                    background-color: #5C688D;
-                    margin-bottom: 20px;
-                }
-
-                .status {
-                    width: 0%;
-                    height: 3px;
-                    background-color: #ffffff;
-                    transition: all 0s ease-in-out;
-                }
-                .for-myBar-1.status .active, .for-myBar-2.status .active {
-                    width: 100%;
-                    height: 3px;
-                    background-color: #ffffff;
-                }
-
-                .for-myBar-1.status.active,.for-myBar-2.status.active {
-                    width: 100%;
-                    transition: all 6s ease-in-out;
-                }
-            }
-            .nav-link{
-                background-color: transparent;
-                font-weight: 700;
-                font-size: 20px;
-                line-height: 24px;
-                align-items: center;
-                color: #3E465F;
-                padding: 0 0 12px;
-                border: 0;
-
-                &.active{
-                    border-bottom: 3px solid #FFFFFF;
-                    color: #FFFFFF;
-                }
-            }
-        }
-
-        .tab-content{
-            h3{
-                font-weight: 500;
-                font-size: 26px;
-                color: #F0F0F0;
-            }
-        }
-    }
-    a{
-        font-size: 20px;
-        line-height: 24px;
-    }
-}
-
 .steps{
-    h3{
-        font-size: 39px;
-        line-height: 38px;
-        color: #9776FF;
+
+    
+    .card{
+        background: linear-gradient(105.38deg, #27244D -3.41%, rgba(35, 35, 35, 0.17) 86.72%);
+        border-radius: 16px;
+        padding-left: 20px;
+        width: 420px;
+        height: 355px;
+        margin-bottom: 100px;
+    }
+
+    .content-title{
+        display: flex;
+        margin-bottom: 130px;
+
+        h3{
+            font-size: 30px;
+            line-height: 36px;
+            color: #F0F0F0;
+    
+            span{
+                color: #9776FF;
+            }
+        }
     }
 
     h4{
-        font-size: 24px;
+        font-size: 18px;
+        line-height: 22px;
         color: #FFFFFF;
-
     }
 
     p{
-        font-family: 'SF Pro Bold';
-        font-weight: 700;
+        font-weight: 500;
         font-size: 18px;
         line-height: 32px;
-        color: #EFEBFF;
-    }
-
-    .subtitle{
-        position: relative;
-        top: 1rem;
-
-        font-weight: 700;
-        font-size: 18px;
-        color: #FFFFFF;
-        opacity: 0.6;
+        color: #E3E3E3;
     }
 
     .number{
-        background: linear-gradient(138.79deg, #333333 -1.06%, #1F1F1F 99.2%);
-        box-shadow: inset -1px -1px 4px rgba(98, 98, 98, 0.08), inset 2px 2px 4px rgba(136, 136, 136, 0.18);
-        border-radius: 10px;
+        background: #141414;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-top: 40px;
         
         display: flex;
         align-items: center;
         justify-content: center;
 
-        width: 88px;
-        padding: 25px 0 10px;
-        
-         p{
-            font-weight: 800;
-            font-size: 60px;
-            color: #EFEBFF;
-         }
+        font-weight: 900;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.03em;
+        color: #fff;
     }
 
-    .tips{
-        h4{
-            font-family: 'SF Pro Bold';
-            font-size: 18px;
-            line-height: 32px;
-            color: #9F9F9F;
-
-            width: 70px;
-            padding: 10px;
-            background: #1B1B1B;
-            border-radius: 10px;
-        }
-
-        p{
-            font-size: 18px;
-            line-height: 32px;
-            letter-spacing: -0.01em;
-            text-decoration-line: underline;
-            color: #EFEBFF;
-            opacity: 0.8;
-        }
+    .content, .step-img{
+        position: relative;
+        bottom: 3em;
     }
+
 }
 
 .cta{
-    padding: 130px 0 50px;
-}
-
-.faq{
-
-    padding: 100px 0 0;
-
     h2{
-        font-family: "SF Pro Medium";
         font-weight: 500;
         font-size: 24px;
         line-height: 32px;
-        color: #E3E3E3;
+        color: #FFF;
         opacity: 0.8;
     }
-
-    .accordion{
-        width: 70%;
-        margin: 0 auto;
-    }
-    
-    .accordion-button{
-        background: #232323;
-        color: #E3E3E3;
-        margin: 16px 0;
-        padding: 0 24px;
-
-        &::after{
-            filter: contrast(0.1);
-        }
-
-        &:not(.collapsed){
-            box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
-            padding-bottom: 16px;
-
-        }
-    }
-
-     .accordion-item{
-        background: #232323;
-        border-radius: 16px;
-        color: #fff;
-        border: 1px solid #232323;
-        margin: 12px 0;
-        
-    }
-
-    .accordion-body{
-        padding: 8px 24px 24px;
-    }
 }
-
 
 footer{
     margin-top: 140px;
@@ -363,6 +265,11 @@ footer{
             }
         }
     }
+}
+
+spline-viewer{
+    position: relative;
+    bottom: 5em;
 }
 
 // google form
@@ -430,7 +337,7 @@ iframe{
         padding: 40px 0;
 
         .menu{
-            padding: 0 0 80px;
+            padding: 0;
 
             button.navbar-toggler {
                 background: linear-gradient(284.09deg, #9757FF -1.11%, #3300FF 193.48%);
@@ -484,24 +391,14 @@ iframe{
         }
     }
 
-    .how-works{
-        .tabs {
-            padding: 60px 40px 0;
-        }
-    }
-
     .steps{
-        .mobile{
-            margin: 0 auto;
-            display: block;
+        .card{
+            width: 340px;
         }
     }
 
-    .faq{
-        padding: 50px 0 0;
-        .accordion {
-            width: 100%;
-        }
+    .cta{
+        padding: 0;
     }
 
     footer{
@@ -566,31 +463,12 @@ iframe{
         h2{
             display: none;
         }
-    }
 
-    .how-works {
-        margin: 50px 0;
-
-        .tabs{
-            padding: 40px 24px;
-            height: 330px;
-            width: 90%;
-            .nav-tabs{
-                .nav-link{
-                    font-size: 16px;
-                }
-            }
-
-            .tab-content{
-                h3{
-                    font-size: 24px;
-                }
-            }
-        }
+        
     }
 
     .cta {
-        padding: 60px 0 50px;
+        padding: 0 0 50px;
 
         h2{
             br{
@@ -600,10 +478,9 @@ iframe{
     }
 
     .step{
-        .number{
-            &:last-child{
-                width: 120px;
-            }
+        
+        .content-title{
+            padding-top: 50px;
         }
     }
 

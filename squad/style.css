@@ -141,53 +141,6 @@ header canvas#spline {
     color: #212121;
     background: #fff; }
 
-.how-works {
-  margin: 100px 0; }
-  .how-works .tabs {
-    background: #0A0A0A;
-    border-radius: 16px;
-    padding: 60px 0 0 40px;
-    height: 400px; }
-    .how-works .tabs .nav-tabs {
-      border: 0; }
-      .how-works .tabs .nav-tabs .nav-item:first-child {
-        margin: 0 16px 0 0; }
-      .how-works .tabs .nav-tabs .nav-item .for-myProgress {
-        width: 100%;
-        background-color: #5C688D;
-        margin-bottom: 20px; }
-      .how-works .tabs .nav-tabs .nav-item .status {
-        width: 0%;
-        height: 3px;
-        background-color: #ffffff;
-        transition: all 0s ease-in-out; }
-      .how-works .tabs .nav-tabs .nav-item .for-myBar-1.status .active, .how-works .tabs .nav-tabs .nav-item .for-myBar-2.status .active {
-        width: 100%;
-        height: 3px;
-        background-color: #ffffff; }
-      .how-works .tabs .nav-tabs .nav-item .for-myBar-1.status.active, .how-works .tabs .nav-tabs .nav-item .for-myBar-2.status.active {
-        width: 100%;
-        transition: all 6s ease-in-out; }
-      .how-works .tabs .nav-tabs .nav-link {
-        background-color: transparent;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 24px;
-        align-items: center;
-        color: #3E465F;
-        padding: 0 0 12px;
-        border: 0; }
-        .how-works .tabs .nav-tabs .nav-link.active {
-          border-bottom: 3px solid #FFFFFF;
-          color: #FFFFFF; }
-    .how-works .tabs .tab-content h3 {
-      font-weight: 500;
-      font-size: 26px;
-      color: #F0F0F0; }
-  .how-works a {
-    font-size: 20px;
-    line-height: 24px; }
-
 .steps .card {
   background: linear-gradient(105.38deg, #27244D -3.41%, rgba(35, 35, 35, 0.17) 86.72%);
   border-radius: 16px;
@@ -238,37 +191,6 @@ header canvas#spline {
   line-height: 32px;
   color: #FFF;
   opacity: 0.8; }
-
-.faq {
-  padding: 100px 0 0; }
-  .faq h2 {
-    font-family: "SF Pro Medium";
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    color: #E3E3E3;
-    opacity: 0.8; }
-  .faq .accordion {
-    width: 70%;
-    margin: 0 auto; }
-  .faq .accordion-button {
-    background: #232323;
-    color: #E3E3E3;
-    margin: 16px 0;
-    padding: 0 24px; }
-    .faq .accordion-button::after {
-      filter: contrast(0.1); }
-    .faq .accordion-button:not(.collapsed) {
-      box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
-      padding-bottom: 16px; }
-  .faq .accordion-item {
-    background: #232323;
-    border-radius: 16px;
-    color: #fff;
-    border: 1px solid #232323;
-    margin: 12px 0; }
-  .faq .accordion-body {
-    padding: 8px 24px 24px; }
 
 footer {
   margin-top: 140px;
@@ -335,7 +257,7 @@ iframe .m7w29c.O8VmIc.tIvQIf {
   header {
     padding: 40px 0; }
     header .menu {
-      padding: 0 0 80px; }
+      padding: 0; }
       header .menu button.navbar-toggler {
         background: linear-gradient(284.09deg, #9757FF -1.11%, #3300FF 193.48%);
         border: none;
@@ -367,17 +289,11 @@ iframe .m7w29c.O8VmIc.tIvQIf {
             text-align: center;
             margin-top: 18px; }
 
-  .how-works .tabs {
-    padding: 60px 40px 0; }
+  .steps .card {
+    width: 340px; }
 
-  .steps .mobile {
-    margin: 0 auto;
-    display: block; }
-
-  .faq {
-    padding: 50px 0 0; }
-    .faq .accordion {
-      width: 100%; }
+  .cta {
+    padding: 0; }
 
   footer {
     margin-top: 100px; }
@@ -411,24 +327,13 @@ iframe .m7w29c.O8VmIc.tIvQIf {
     header h2 {
       display: none; }
 
-  .how-works {
-    margin: 50px 0; }
-    .how-works .tabs {
-      padding: 40px 24px;
-      height: 330px;
-      width: 90%; }
-      .how-works .tabs .nav-tabs .nav-link {
-        font-size: 16px; }
-      .how-works .tabs .tab-content h3 {
-        font-size: 24px; }
-
   .cta {
-    padding: 60px 0 50px; }
+    padding: 0 0 50px; }
     .cta h2 br {
       display: none; }
 
-  .step .number:last-child {
-    width: 120px; }
+  .step .content-title {
+    padding-top: 50px; }
 
   .faq {
     padding: 50px 0 0; }

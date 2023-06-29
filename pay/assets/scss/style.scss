@@ -28,8 +28,6 @@ header{
 
     .menu{
         padding: 50px 0 0;
-        position: relative;
-        z-index: 10;
     }
     .navbar-expand-lg .navbar-collapse{
         justify-content: end;
@@ -72,35 +70,12 @@ header{
             }
     
         }
-    } 
-
-    .row{
-        align-items: flex-start;
     }
 
     h1{
-        font-family: 'SF Pro Bold';
-        font-weight: 700;
-        font-size: 60px;
-        color: #fff;
-        margin-top: 120px;
-
-        span{
-            color: #9776FF;
-        }
-    }
-
-    h2{
         font-weight: 700;
         font-size: 34px;
         line-height: 48px;
-    }
-
-    p{
-        font-size: 18px;
-        line-height: 28px;
-        color: #EFEBFF;
-        opacity: 0.7;
     }
 
     canvas#spline{
@@ -119,33 +94,32 @@ header{
     min-width: 200px;
     border-radius: 100px;
     text-align: center;
-}
-
-.primary{
-    background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
-
-
-    &:hover{
-        background: #fff;
-        span{
-            background-image: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
-            background-clip: text;
-            -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
-            -webkit-text-fill-color: transparent;
+    
+    &.primary{
+        background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
+    
+    
+        &:hover{
+            background: #fff;
+            span{
+                background-image: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
+                background-clip: text;
+                -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+    
+    &.secondary{
+        background: #212121;
+        border-radius: 100px;
+    
+        &:hover{
+            color: #212121 ;
+            background: #fff;
         }
     }
 }
-
-.secondary{
-    background: #212121;
-    border-radius: 100px;
-
-    &:hover{
-        color: #212121 ;
-        background: #fff;
-    }
-}
-
 
 .how-works{
     margin: 100px 0;
@@ -219,31 +193,6 @@ header{
 
 .steps{
 
-    
-    .card{
-        background: linear-gradient(105.38deg, #27244D -3.41%, rgba(35, 35, 35, 0.17) 86.72%);
-        border-radius: 16px;
-        padding-left: 20px;
-        width: 420px;
-        height: 355px;
-        margin-bottom: 100px;
-    }
-
-    .content-title{
-        display: flex;
-        margin-bottom: 130px;
-
-        h3{
-            font-size: 30px;
-            line-height: 36px;
-            color: #F0F0F0;
-    
-            span{
-                color: #9776FF;
-            }
-        }
-    }
-
     h4{
         font-size: 18px;
         line-height: 22px;
@@ -251,10 +200,33 @@ header{
     }
 
     p{
-        font-weight: 500;
         font-size: 18px;
         line-height: 32px;
+        letter-spacing: -0.9px;
         color: #E3E3E3;
+    }
+
+    .subtitle{
+        position: relative;
+        top: 0.5rem;
+
+        font-weight: 700;
+        font-size: 18px;
+
+        letter-spacing: 1.5px;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+
+    .card{
+        background: linear-gradient(105.38deg, #27244D -3.41%, rgba(35, 35, 35, 0.17) 86.72%);
+        border-radius: 16px;
+        padding: 40px;
+        width: 420px;
+
+        &:last-child{
+            width: 100%;
+        }
     }
 
     .number{
@@ -276,21 +248,33 @@ header{
         color: #fff;
     }
 
-    .content, .step-img{
-        position: relative;
-        bottom: 3em;
-    }
 
+    .tips{
+        h4{
+            font-family: 'SF Pro Bold';
+            font-size: 18px;
+            line-height: 32px;
+            color: #9F9F9F;
+
+            width: 70px;
+            padding: 10px;
+            background: #1B1B1B;
+            border-radius: 10px;
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: -0.01em;
+            text-decoration-line: underline;
+            color: #EFEBFF;
+            opacity: 0.8;
+        }
+    }
 }
 
 .cta{
-    h2{
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 32px;
-        color: #FFF;
-        opacity: 0.8;
-    }
+    padding: 130px 0 50px;
 }
 
 .faq{
@@ -386,11 +370,6 @@ footer{
             }
         }
     }
-}
-
-spline-viewer{
-    position: relative;
-    bottom: 5em;
 }
 
 // google form
