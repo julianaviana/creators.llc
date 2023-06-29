@@ -103,10 +103,6 @@ header{
         opacity: 0.7;
     }
 
-    canvas#spline{
-        height: 500px;
-    }
-
 }
 
 .btn{
@@ -148,9 +144,13 @@ header{
 
 .steps{
 
+    background: url("assets/image/bg-steps.png") no-repeat top left;
+    background-size: cover;
+    padding-bottom: 130px;
     
     .card{
         background: linear-gradient(105.38deg, #27244D -3.41%, rgba(35, 35, 35, 0.17) 86.72%);
+        backdrop-filter: blur(6px);
         border-radius: 16px;
         padding-left: 20px;
         width: 420px;
@@ -392,6 +392,8 @@ iframe{
     }
 
     .steps{
+        background: transparent;
+        padding-bottom: 0;
         .card{
             width: 340px;
         }
@@ -512,5 +514,10 @@ iframe{
         .social-media{
             justify-content: flex-start;
         }
+    }
+
+    spline-viewer{
+        position: relative;
+        bottom: 0;
     }
 }

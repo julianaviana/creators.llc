@@ -109,8 +109,6 @@ header p {
   line-height: 28px;
   color: #EFEBFF;
   opacity: 0.7; }
-header canvas#spline {
-  height: 500px; }
 
 .btn {
   padding: 16px 40px;
@@ -141,49 +139,54 @@ header canvas#spline {
     color: #212121;
     background: #fff; }
 
-.steps .card {
-  background: linear-gradient(105.38deg, #27244D -3.41%, rgba(35, 35, 35, 0.17) 86.72%);
-  border-radius: 16px;
-  padding-left: 20px;
-  width: 420px;
-  height: 355px;
-  margin-bottom: 100px; }
-.steps .content-title {
-  display: flex;
-  margin-bottom: 130px; }
-  .steps .content-title h3 {
-    font-size: 30px;
-    line-height: 36px;
-    color: #F0F0F0; }
-    .steps .content-title h3 span {
-      color: #9776FF; }
-.steps h4 {
-  font-size: 18px;
-  line-height: 22px;
-  color: #FFFFFF; }
-.steps p {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 32px;
-  color: #E3E3E3; }
-.steps .number {
-  background: #141414;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 900;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.03em;
-  color: #fff; }
-.steps .content, .steps .step-img {
-  position: relative;
-  bottom: 3em; }
+.steps {
+  background: url("assets/image/bg-steps.png") no-repeat top left;
+  background-size: cover;
+  padding-bottom: 130px; }
+  .steps .card {
+    background: linear-gradient(105.38deg, #27244D -3.41%, rgba(35, 35, 35, 0.17) 86.72%);
+    backdrop-filter: blur(6px);
+    border-radius: 16px;
+    padding-left: 20px;
+    width: 420px;
+    height: 355px;
+    margin-bottom: 100px; }
+  .steps .content-title {
+    display: flex;
+    margin-bottom: 130px; }
+    .steps .content-title h3 {
+      font-size: 30px;
+      line-height: 36px;
+      color: #F0F0F0; }
+      .steps .content-title h3 span {
+        color: #9776FF; }
+  .steps h4 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF; }
+  .steps p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #E3E3E3; }
+  .steps .number {
+    background: #141414;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    color: #fff; }
+  .steps .content, .steps .step-img {
+    position: relative;
+    bottom: 3em; }
 
 .cta h2 {
   font-weight: 500;
@@ -289,8 +292,11 @@ iframe .m7w29c.O8VmIc.tIvQIf {
             text-align: center;
             margin-top: 18px; }
 
-  .steps .card {
-    width: 340px; }
+  .steps {
+    background: transparent;
+    padding-bottom: 0; }
+    .steps .card {
+      width: 340px; }
 
   .cta {
     padding: 0; }
@@ -350,6 +356,8 @@ iframe .m7w29c.O8VmIc.tIvQIf {
         display: flex;
         margin: 10px 0; }
     footer .social-media {
-      justify-content: flex-start; } }
+      justify-content: flex-start; }
 
-/*# sourceMappingURL=style.css.map */
+  spline-viewer {
+    position: relative;
+    bottom: 0; } }
