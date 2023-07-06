@@ -193,7 +193,7 @@ header canvas#spline {
   .steps .card:last-child {
     width: 820px;
     padding: 40px 60px;
-    margin: 0; }
+    margin: 50px 0 0; }
 .steps .internal-cards {
   height: 240px; }
 .steps .number {
