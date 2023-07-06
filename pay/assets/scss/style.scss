@@ -202,7 +202,6 @@ header{
     p{
         font-size: 18px;
         line-height: 32px;
-        letter-spacing: -0.9px;
         color: #E3E3E3;
     }
 
@@ -213,7 +212,6 @@ header{
         font-weight: 700;
         font-size: 18px;
 
-        letter-spacing: 1.5px;
         color: #FFFFFF;
         opacity: 0.6;
     }
@@ -222,11 +220,18 @@ header{
         background: linear-gradient(105.38deg, #27244D -3.41%, rgba(35, 35, 35, 0.17) 86.72%);
         border-radius: 16px;
         padding: 40px;
+        margin: 50px 0;
         width: 420px;
 
         &:last-child{
-            width: 100%;
+            width: 820px;
+            padding: 40px 60px;
+            margin: 0;
         }
+    }
+
+    .internal-cards{
+        height: 240px;
     }
 
     .number{
@@ -244,10 +249,13 @@ header{
         font-size: 20px;
         display: flex;
         align-items: center;
-        letter-spacing: -0.03em;
         color: #fff;
     }
 
+    .mobile{
+        height: 500px;
+        margin: 50px 0;
+    }
 
     .tips{
         h4{
@@ -265,7 +273,6 @@ header{
         p{
             font-size: 18px;
             line-height: 32px;
-            letter-spacing: -0.01em;
             text-decoration-line: underline;
             color: #EFEBFF;
             opacity: 0.8;
@@ -419,6 +426,7 @@ iframe{
     }
 
     .faq{
+
         .accordion{
             width: 80%;
              h2{
@@ -426,6 +434,12 @@ iframe{
                     display: block;
                 }
              }
+        }
+
+        .accordion-button{
+            &:focus{
+                box-shadow: none !important;
+            }
         }
     }
 }
@@ -499,8 +513,10 @@ iframe{
 
     .steps{
         .mobile{
+           img{
             margin: 0 auto;
             display: block;
+           }
         }
     }
 
