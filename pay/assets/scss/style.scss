@@ -253,8 +253,17 @@ header{
     }
 
     .mobile{
-        height: 500px;
-        margin: 50px 0;
+        background: url("assets/image/mobile.png") center center no-repeat;
+        background-size: cover;
+        padding: 50px 50px;
+        margin: -50px -50px;
+
+        img{
+            height: 500px;
+            width: 230px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
     }
 
     .tips{
