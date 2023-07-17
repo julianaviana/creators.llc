@@ -136,10 +136,19 @@ header{
 
     .card{
         border-radius: 20px;
-        background: rgba(13, 13, 13, 0.70);
+        background: url("assets/image/bg-opacity.png") no-repeat;
+        background-size: cover;
         backdrop-filter: blur(20px);
         padding: 80px 40px 0;
         height: 536px;
+
+
+        // border-image: 
+        //   linear-gradient(
+        //     to bottom, 
+        //     white, 
+        //     rgba(0, 0, 0, 0)
+        //   ) 1 10%;
 
         h3{
             font-size: 32px;
@@ -175,7 +184,8 @@ header{
 
     .card{
         border-radius: 16px;
-        background: linear-gradient(127deg, #27244D 0%, rgba(35, 35, 35, 0.17) 100%);
+        background: url("assets/image/bg-opacity-02.png") no-repeat;
+        background-size: cover;
         backdrop-filter: blur(20px);
         padding: 60px 40px 0;
         margin-right: 30px;
@@ -193,6 +203,7 @@ header{
         img{
             position: relative;
             bottom: 6em;
+            width: 170px;
         }
 
         p{
@@ -243,13 +254,13 @@ header{
 
     .row{
         &:last-child{
-            position: relative;
-            bottom: 3rem;
+            margin-top: 10px;
         }
     }
 
     .card{
-        background: linear-gradient(105.38deg, #27244D -3.41%, rgba(35, 35, 35, 0.17) 86.72%);
+        background: url("assets/image/bg-opacity-03.png") no-repeat;
+        background-size: cover;
         backdrop-filter: blur(20px);
         border-radius: 16px;
         padding: 40px;
@@ -460,16 +471,15 @@ iframe{
         .navbar-expand-lg{
             .navbar-collapse{
 
-                padding: 20px 0 0;
                 .nav-item{
                     a{
-                        font-size: 24px;
+                        font-size: 18px;
                         line-height: 16px;
                         text-align: right;
 
                         &:first-child{
                             margin-right: 0;
-                            padding: 18px 8px 18px 0;
+                            padding: 20px 8px 0 0;
                         }
                     }
                 }
@@ -490,6 +500,8 @@ iframe{
                             background: #7553E2;
                             text-align: center;
                             margin-top: 18px;
+                            padding: 18px 20px;
+                            font-size: 18px;
                         }
                     }
                 }
@@ -500,6 +512,7 @@ iframe{
     .academy{
 
         background: url("assets/image/bg-mobile-creators.png") no-repeat center;
+        background-size: contain;
 
         .row{
             margin: 0 0 0 15px;
@@ -533,7 +546,7 @@ iframe{
 
     .steps{
 
-        background: url("assets/image/bg-mobile-academy.png") no-repeat center;
+        background: url("assets/image/bg-mobile-academy.png") no-repeat bottom;
         background-size: contain;
         
         padding: 0;
@@ -610,7 +623,7 @@ iframe{
 
             .navbar-collapse{
                 &.show{
-                    height: 100vh;
+                    height: 25vh;
                 }
             }
         }
