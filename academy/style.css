@@ -130,7 +130,7 @@ header p {
 .academy {
   background: url("assets/image/bg-creators.png") no-repeat center;
   background-size: contain;
-  margin: 100px 0; }
+  margin: 180px 0; }
   .academy .card {
     border-radius: 20px;
     background: url("assets/image/bg-opacity.png") no-repeat;
@@ -184,7 +184,7 @@ header p {
 .steps {
   background: url("assets/image/bg-academy.png") no-repeat center;
   background-size: contain;
-  padding: 100px 0; }
+  padding: 180px 0; }
   .steps h2 {
     text-align: center;
     margin-bottom: 40px; }
@@ -232,15 +232,13 @@ header p {
     letter-spacing: -0.03em;
     color: #fff; }
 
-.cta {
-  padding: 80px 0 50px; }
-  .cta h3 {
-    font-family: "SF Pro Display";
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
-    opacity: 0.8; }
+.cta h3 {
+  font-family: "SF Pro Display";
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.8; }
 
 .faq {
   padding: 100px 0 0; }
@@ -339,35 +337,37 @@ iframe .m7w29c.O8VmIc.tIvQIf {
         padding: 10px; }
         header .menu button.navbar-toggler span.navbar-toggler-icon {
           filter: invert(1); }
-    header .navbar-expand-lg .navbar-collapse .nav-item a {
-      font-size: 18px;
-      line-height: 16px;
-      text-align: right; }
-      header .navbar-expand-lg .navbar-collapse .nav-item a:first-child {
-        margin-right: 0;
-        padding: 20px 8px 0 0; }
-    header .navbar-expand-lg .navbar-collapse .btn-area {
-      display: grid;
-      float: right; }
-      header .navbar-expand-lg .navbar-collapse .btn-area .btn {
-        background: transparent;
-        text-align: right;
-        padding: 18px 8px 18px 0;
-        margin-right: 0;
-        font-size: 24px;
-        line-height: 16px; }
-        header .navbar-expand-lg .navbar-collapse .btn-area .btn.purple {
-          background: #7553E2;
-          text-align: center;
-          margin-top: 18px;
-          padding: 18px 20px;
-          font-size: 18px; }
+    header .navbar-expand-lg .navbar-collapse {
+      padding: 20px 0 0; }
+      header .navbar-expand-lg .navbar-collapse .nav-item a {
+        font-size: 18px;
+        line-height: 16px;
+        text-align: right; }
+        header .navbar-expand-lg .navbar-collapse .nav-item a:first-child {
+          margin-right: 0;
+          padding: 20px 8px 0 0; }
+      header .navbar-expand-lg .navbar-collapse .btn-area {
+        display: grid;
+        float: right; }
+        header .navbar-expand-lg .navbar-collapse .btn-area .btn {
+          background: transparent;
+          text-align: right;
+          padding: 18px 8px 18px 0;
+          margin-right: 0;
+          font-size: 18px;
+          line-height: 16px; }
+          header .navbar-expand-lg .navbar-collapse .btn-area .btn.purple {
+            background: #7553E2;
+            text-align: center;
+            margin-top: 18px;
+            padding: 18px 20px;
+            font-size: 18px; }
 
   .academy {
     background: url("assets/image/bg-mobile-creators.png") no-repeat center;
     background-size: contain; }
     .academy .row {
-      margin: 0 0 0 15px; }
+      margin: 0; }
     .academy .card {
       height: auto;
       margin-bottom: 40px;
@@ -377,7 +377,7 @@ iframe .m7w29c.O8VmIc.tIvQIf {
 
   .acceleration .row {
     padding: 40px 0 100px;
-    margin: 0 0 0 15px; }
+    margin: 0; }
   .acceleration .card {
     margin-right: 0;
     margin-bottom: 60px; }

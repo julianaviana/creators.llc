@@ -146,13 +146,13 @@ header{
 
     background: url("assets/image/bg-steps.png") no-repeat top left;
     background-size: cover;
-    padding-bottom: 130px;
+    padding-bottom: 200px 0 100px;
     
     .card{
         background: linear-gradient(105.38deg, #27244D -3.41%, rgba(35, 35, 35, 0.17) 86.72%);
         backdrop-filter: blur(6px);
         border-radius: 16px;
-        padding-left: 20px;
+        padding: 0 0 0 30px;
         width: 420px;
         height: 355px;
         margin-bottom: 100px;
@@ -203,6 +203,12 @@ header{
         align-items: center;
         letter-spacing: -0.03em;
         color: #fff;
+    }
+
+    .content{
+        p{
+            padding-right: 30px;
+        }
     }
 
     .content, .step-img{
@@ -357,13 +363,13 @@ iframe{
                 padding: 20px 0 0;
                 .nav-item{
                     a{
-                        font-size: 24px;
+                        ffont-size: 18px;
                         line-height: 16px;
                         text-align: right;
 
                         &:first-child{
                             margin-right: 0;
-                            padding: 18px 8px 18px 0;
+                            padding: 20px 8px 0 0;
                         }
                     }
                 }
@@ -384,6 +390,8 @@ iframe{
                             background: #7553E2;
                             text-align: center;
                             margin-top: 18px;
+                            padding: 18px 20px;
+                            font-size: 18px;
                         }
                     }
                 }
@@ -445,7 +453,7 @@ iframe{
 
             .navbar-collapse{
                 &.show{
-                    height: 100vh;
+                    height: 25vh;
                 }
             }
         }

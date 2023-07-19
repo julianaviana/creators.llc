@@ -132,7 +132,7 @@ header{
 .academy{
     background: url("assets/image/bg-creators.png") no-repeat center;
     background-size: contain;
-    margin: 100px 0;
+    margin: 180px 0;
 
     .card{
         border-radius: 20px;
@@ -221,7 +221,7 @@ header{
 
     background: url("assets/image/bg-academy.png") no-repeat center;
     background-size: contain;
-    padding: 100px 0;
+    padding: 180px 0;
 
     h2{
         text-align: center;
@@ -293,7 +293,6 @@ header{
 }
 
 .cta{
-    padding: 80px 0 50px;
 
     h3{
         font-family: "SF Pro Display";
@@ -471,6 +470,7 @@ iframe{
         .navbar-expand-lg{
             .navbar-collapse{
 
+                padding: 20px 0 0;
                 .nav-item{
                     a{
                         font-size: 18px;
@@ -493,7 +493,7 @@ iframe{
                         padding: 18px 8px 18px 0;
                         margin-right: 0;
 
-                        font-size: 24px;
+                        font-size: 18px;
                         line-height: 16px;
 
                         &.purple{
@@ -515,7 +515,7 @@ iframe{
         background-size: contain;
 
         .row{
-            margin: 0 0 0 15px;
+            margin: 0;
         }
         .card{
             height: auto;
@@ -532,7 +532,7 @@ iframe{
 
         .row{
             padding: 40px 0 100px;
-            margin: 0 0 0 15px;
+            margin: 0;
         }
         .card{
             margin-right: 0;
