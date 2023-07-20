@@ -487,10 +487,16 @@ iframe{
         }
     }
 
-    .step{
+    .steps{
         
         .content-title{
-            padding-top: 50px;
+            margin-bottom: 100px;
+            margin-top: 60px;
+
+            h3{
+                font-size: 25px;
+            }
+
         }
     }
 
