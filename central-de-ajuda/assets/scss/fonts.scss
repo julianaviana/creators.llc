@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "SF Pro Bold";
+    src: url("./fonts/SF-Pro-Display-Bold.OTF") format("opentype");
+}
+
+@font-face {
+    font-family: "SF Pro Medium";
+    src: url("./fonts/SF-Pro-Display-Medium.OTF") format("opentype");
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("./fonts/SF-Pro-Display-Regular.OTF") format("opentype");
+}
+
+h1, h2, h3, a{
+    font-family: 'SF Pro Bold';  
+}
+
+h1{
+    font-size: 56px;
+    font-weight: 800;
+    color: #fff;
+
+    @media only screen and (max-width: 1024px) {
+        font-size: 46px;
+    }
+
+    @media only screen and (max-width: 766px){
+        font-size: 26px;
+    }
+}
+
+h2{
+
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px; /* 118.75% */
+    color: #fff;
+
+    @media only screen and (max-width: 766px){
+        font-size: 22px;
+        line-height: normal;
+    }
+}
+
+h3{
+    color: #E3E3E3;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 21.713px;
+}
+
+p, input, select{
+    font-family: 'SF Pro Display';
+}
+
+input, select{
+    font-size: 18px;
+    line-height: 21px;
+    color: #5D6472;
+}
