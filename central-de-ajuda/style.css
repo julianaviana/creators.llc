@@ -470,6 +470,11 @@ footer {
       font-size: 22px;
       margin-right: 20px;
       border: 0; }
+  #articles .group-questions h1 {
+    font-size: 32px;
+    line-height: 38px; }
+    #articles .group-questions h1 span {
+      color: #9776FF; }
   #articles .group-questions .row {
     justify-content: center; }
     #articles .group-questions .row .cards {

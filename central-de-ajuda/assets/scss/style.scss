@@ -690,6 +690,7 @@ footer{
     }
 
     #doubt{
+
         .hero{
             margin-top: 130px;
 
@@ -728,6 +729,16 @@ footer{
         }
 
         .group-questions{
+
+            h1{
+
+                font-size: 32px;
+                line-height: 38px;
+
+                span{
+                    color: #9776FF;
+                }
+            }
             .row{
                 justify-content: center;
 
