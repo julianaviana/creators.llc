@@ -238,73 +238,73 @@ footer {
     footer .social-media a img {
       padding: 0 5px; }
 
-#faq header nav, #doubt header nav, #articles header nav {
+#faq header nav, #doubt header nav, #articles header nav, #single_article header nav {
   display: flex;
   justify-content: space-between; }
-  #faq header nav .search, #doubt header nav .search, #articles header nav .search {
+  #faq header nav .search, #doubt header nav .search, #articles header nav .search, #single_article header nav .search {
     display: flex;
     border-radius: 16px;
     background: #3F434E;
     border: 1px solid #3F434E;
     width: 430px;
     padding: 16px 20px; }
-    #faq header nav .search input, #doubt header nav .search input, #articles header nav .search input {
+    #faq header nav .search input, #doubt header nav .search input, #articles header nav .search input, #single_article header nav .search input {
       color: #7D8594;
       font-size: 18px;
       font-weight: 500;
       padding: 0 20px;
       background: #3F434E;
       border: 1px solid #3F434E; }
-      #faq header nav .search input:focus, #doubt header nav .search input:focus, #articles header nav .search input:focus {
+      #faq header nav .search input:focus, #doubt header nav .search input:focus, #articles header nav .search input:focus, #single_article header nav .search input:focus {
         box-shadow: 0 0 0 0;
         outline: 0; }
-#faq .hero, #doubt .hero, #articles .hero {
+#faq .hero, #doubt .hero, #articles .hero, #single_article .hero {
   margin-bottom: 50px; }
-  #faq .hero p, #doubt .hero p, #articles .hero p {
+  #faq .hero p, #doubt .hero p, #articles .hero p, #single_article .hero p {
     opacity: 1;
     padding-bottom: 30px;
     margin-bottom: 50px;
     border-bottom: 1px solid #3E465F; }
-    #faq .hero p a, #doubt .hero p a, #articles .hero p a {
+    #faq .hero p a, #doubt .hero p a, #articles .hero p a, #single_article .hero p a {
       opacity: 0.7; }
-      #faq .hero p a:hover, #doubt .hero p a:hover, #articles .hero p a:hover {
+      #faq .hero p a:hover, #doubt .hero p a:hover, #articles .hero p a:hover, #single_article .hero p a:hover {
         color: #fff;
         opacity: 1; }
-    #faq .hero p span, #doubt .hero p span, #articles .hero p span {
+    #faq .hero p span, #doubt .hero p span, #articles .hero p span, #single_article .hero p span {
       padding: 0 10px; }
-#faq .faq, #doubt .faq, #articles .faq {
+#faq .faq, #doubt .faq, #articles .faq, #single_article .faq {
   margin: 0 0 80px; }
-  #faq .faq:last-child, #doubt .faq:last-child, #articles .faq:last-child {
+  #faq .faq:last-child, #doubt .faq:last-child, #articles .faq:last-child, #single_article .faq:last-child {
     margin-bottom: 50px; }
-  #faq .faq .row, #doubt .faq .row, #articles .faq .row {
+  #faq .faq .row, #doubt .faq .row, #articles .faq .row, #single_article .faq .row {
     align-items: baseline;
     justify-content: space-between; }
-#faq .group-questions .row, #doubt .group-questions .row, #articles .group-questions .row {
+#faq .group-questions .row, #doubt .group-questions .row, #articles .group-questions .row, #single_article .group-questions .row {
   align-items: baseline; }
-  #faq .group-questions .row .questions, #doubt .group-questions .row .questions, #articles .group-questions .row .questions {
+  #faq .group-questions .row .questions, #doubt .group-questions .row .questions, #articles .group-questions .row .questions, #single_article .group-questions .row .questions {
     border-radius: 16px;
     background: #202020;
     padding: 32px;
     margin-top: 10px; }
-    #faq .group-questions .row .questions:first-child, #doubt .group-questions .row .questions:first-child, #articles .group-questions .row .questions:first-child {
+    #faq .group-questions .row .questions:first-child, #doubt .group-questions .row .questions:first-child, #articles .group-questions .row .questions:first-child, #single_article .group-questions .row .questions:first-child {
       margin-top: 0; }
-    #faq .group-questions .row .questions a:hover, #doubt .group-questions .row .questions a:hover, #articles .group-questions .row .questions a:hover {
+    #faq .group-questions .row .questions a:hover, #doubt .group-questions .row .questions a:hover, #articles .group-questions .row .questions a:hover, #single_article .group-questions .row .questions a:hover {
       text-decoration: underline;
       color: #fff; }
-  #faq .group-questions .row .cards, #doubt .group-questions .row .cards, #articles .group-questions .row .cards {
+  #faq .group-questions .row .cards, #doubt .group-questions .row .cards, #articles .group-questions .row .cards, #single_article .group-questions .row .cards {
     border-radius: 16px;
     background: #1C1E22;
     margin-right: 30px;
     padding: 32px; }
-    #faq .group-questions .row .cards h3, #doubt .group-questions .row .cards h3, #articles .group-questions .row .cards h3 {
+    #faq .group-questions .row .cards h3, #doubt .group-questions .row .cards h3, #articles .group-questions .row .cards h3, #single_article .group-questions .row .cards h3 {
       margin: 20px 0; }
-      #faq .group-questions .row .cards h3 span, #doubt .group-questions .row .cards h3 span, #articles .group-questions .row .cards h3 span {
+      #faq .group-questions .row .cards h3 span, #doubt .group-questions .row .cards h3 span, #articles .group-questions .row .cards h3 span, #single_article .group-questions .row .cards h3 span {
         color: #9776FF; }
-    #faq .group-questions .row .cards a, #doubt .group-questions .row .cards a, #articles .group-questions .row .cards a {
+    #faq .group-questions .row .cards a, #doubt .group-questions .row .cards a, #articles .group-questions .row .cards a, #single_article .group-questions .row .cards a {
       text-decoration-line: underline; }
-      #faq .group-questions .row .cards a:hover, #doubt .group-questions .row .cards a:hover, #articles .group-questions .row .cards a:hover {
+      #faq .group-questions .row .cards a:hover, #doubt .group-questions .row .cards a:hover, #articles .group-questions .row .cards a:hover, #single_article .group-questions .row .cards a:hover {
         color: #9776FF; }
-    #faq .group-questions .row .cards:last-child, #doubt .group-questions .row .cards:last-child, #articles .group-questions .row .cards:last-child {
+    #faq .group-questions .row .cards:last-child, #doubt .group-questions .row .cards:last-child, #articles .group-questions .row .cards:last-child, #single_article .group-questions .row .cards:last-child {
       margin-right: 0; }
 
 #articles .hero .nav {
@@ -344,6 +344,40 @@ footer {
     padding: 0 0 10px; }
   #doubt .select-pages a:hover {
     opacity: 1; }
+#doubt .faq .group-questions h1 {
+  font-family: SF Pro Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  margin: 96px 0; }
+  #doubt .faq .group-questions h1 span {
+    color: #9776FF; }
+
+#single_article .article .row {
+  align-items: baseline; }
+  #single_article .article .row p {
+    color: #EEEEF1;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; }
+    #single_article .article .row p a {
+      color: #9776FF; }
+      #single_article .article .row p a:hover {
+        text-decoration-line: underline; }
+  #single_article .article .row .related-article a {
+    display: block;
+    border-radius: 16px;
+    background: #202020;
+    padding: 24px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px; }
+    #single_article .article .row .related-article a:hover {
+      color: #fff;
+      text-decoration-line: underline; }
 
 @media only screen and (max-width: 1200px) {
   br {
@@ -401,7 +435,7 @@ footer {
     footer .row .list-terms a {
       margin: 0 20px 0 0; }
 
-  #faq .hero, #doubt .hero, #articles .hero {
+  #faq .hero, #doubt .hero, #articles .hero, #single_article .hero {
     margin-top: 30px; }
 
   #articles .group-questions:last-child {
@@ -451,7 +485,7 @@ footer {
     footer .social-media {
       justify-content: flex-start; }
 
-  #faq header nav .search, #doubt header nav .search, #articles header nav .search {
+  #faq header nav .search, #doubt header nav .search, #articles header nav .search, #single_article header nav .search {
     display: none; }
 
   #doubt .hero {
@@ -463,6 +497,11 @@ footer {
   #doubt .select-pages a {
     font-size: 22px;
     margin-right: 20px; }
+  #doubt .article p {
+    color: #EEEEF1;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px; }
 
   #articles .hero {
     margin-top: 130px; }
@@ -470,11 +509,6 @@ footer {
       font-size: 22px;
       margin-right: 20px;
       border: 0; }
-  #articles .group-questions h1 {
-    font-size: 32px;
-    line-height: 38px; }
-    #articles .group-questions h1 span {
-      color: #9776FF; }
   #articles .group-questions .row {
     justify-content: center; }
     #articles .group-questions .row .cards {

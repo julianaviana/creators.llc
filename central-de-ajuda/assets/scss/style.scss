@@ -286,7 +286,7 @@ footer{
     }
 }
 
-#faq, #doubt, #articles{
+#faq, #doubt, #articles, #single_article{
 
     header{
 
@@ -477,6 +477,63 @@ footer{
             }
         }
     }
+
+    .faq{
+        .group-questions{
+            h1{
+                font-family: SF Pro Display;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 38px;
+                margin: 96px 0;
+                span{
+                    color: #9776FF;
+                }
+            }
+        }
+    }
+}
+
+#single_article{
+    .article{
+        .row{
+            align-items: baseline;
+            p{
+                color: #EEEEF1;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+    
+                a{
+                    color: #9776FF;
+    
+                    &:hover{
+                        text-decoration-line: underline;
+                    }
+                }
+            }
+
+            .related-article{
+                a{
+                    display: block;
+                    border-radius: 16px;
+                    background: #202020;
+                    padding: 24px;
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 22px;
+
+                    &:hover{
+                        color: #fff;
+                        text-decoration-line: underline;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
@@ -583,7 +640,7 @@ footer{
 
     }
 
-    #faq, #doubt, #articles{
+    #faq, #doubt, #articles, #single_article{
         .hero{
             margin-top: 30px;
         }
@@ -676,7 +733,7 @@ footer{
         }
     }
 
-    #faq, #doubt, #articles{
+    #faq, #doubt, #articles, #single_article{
 
         header{
     
@@ -709,6 +766,15 @@ footer{
                 margin-right: 20px;
             }
         }
+
+        .article{
+            p{
+                color: #EEEEF1;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 24px;
+            }
+        }
     }
 
     #articles{
@@ -729,16 +795,6 @@ footer{
         }
 
         .group-questions{
-
-            h1{
-
-                font-size: 32px;
-                line-height: 38px;
-
-                span{
-                    color: #9776FF;
-                }
-            }
             .row{
                 justify-content: center;
 
