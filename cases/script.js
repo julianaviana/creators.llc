@@ -219,3 +219,41 @@ $('.nine-bcp-reels').click(function(){
   $('html').css('overflow-y','hidden');
   $('body > div > video').attr("src","./assets/image/reels-bcp-09.mp4");
 });
+
+// Nubank - Modo rua
+
+$('.fourth-nubank-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-nubank-07.mp4");
+  });
+
+  $('.five-nubank-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-nubank-08.mp4");
+  });
+
+  $('.sixth-nubank-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-nubank-04.mp4");
+  });
+
+  $('.seven-nubank-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-nubank-05.mp4");
+  });
+
+  $('.eighth-nubank-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-nubank-06.mp4");
+  });
+
+  $('.nine-nubank-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-nubank-08.mp4");
+  });
