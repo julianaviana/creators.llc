@@ -257,3 +257,17 @@ $('.fourth-nubank-reels').click(function(){
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-nubank-08.mp4");
   });
+
+  // Prime video
+
+  $('.first-prime-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-prime-01.mp4");
+  });
+
+  $('.second-prime-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-prime-02.mp4");
+  });
