@@ -3,6 +3,7 @@
 body{
     background: #111;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -113,6 +114,7 @@ header{
     &.secondary{
         background: #212121;
         border-radius: 100px;
+        color: #fff;
     
         &:hover{
             color: #212121 ;

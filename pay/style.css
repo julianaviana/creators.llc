@@ -41,7 +41,8 @@ input, select {
 
 body {
   background: #111;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
 
 a {
   text-decoration: none;
@@ -117,7 +118,8 @@ header canvas#spline {
         -webkit-text-fill-color: transparent; }
   .btn.secondary {
     background: #212121;
-    border-radius: 100px; }
+    border-radius: 100px;
+    color: #fff; }
     .btn.secondary:hover {
       color: #212121;
       background: #fff; }
