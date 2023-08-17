@@ -271,3 +271,17 @@ $('.fourth-nubank-reels').click(function(){
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-prime-02.mp4");
   });
+
+//Picpay
+
+$('.first-picpay-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-picpay-01.mp4");
+});
+
+$('.second-picpay-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-picpay-02.mp4");
+});
