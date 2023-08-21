@@ -285,3 +285,18 @@ $('.second-picpay-reels').click(function(){
   $('html').css('overflow-y','hidden');
   $('body > div > video').attr("src","./assets/image/reels-picpay-02.mp4");
 });
+
+
+//Sicredi
+
+$('.first-sicredi-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-sicredi-01.mp4");
+});
+
+$('.second-sicredi-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-sicredi-02.mp4");
+});
