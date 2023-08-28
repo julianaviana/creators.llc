@@ -473,6 +473,14 @@
 
         .fourth-section {
             padding: 100px 0;
+
+            .stories{
+                .carousel{
+                    .carousel-cell{
+                        width: 32%;
+                    }
+                }
+            }
         }
 
         .seven-section{
@@ -560,6 +568,18 @@
             .flickity-page-dots{
                 .dot{
                     width: 38px;
+                }
+            }
+
+            .stories{
+                .carousel{
+                    .carousel-cell{
+                        width: 57%;
+
+                        .single-video{
+                            width: 180%;
+                        }
+                    }
                 }
             }
         }

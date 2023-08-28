@@ -579,6 +579,22 @@ footer{
         }
     }
 
+    .cases{
+        .content-area{
+            padding: 40px 30px;
+            h2{
+                font-size: 18px;
+
+                br{
+                    display: none;
+                }
+            }
+
+            .btn{
+                font-size: 18px;
+            }
+        }
+    }
 
     .first-section{
 
@@ -667,6 +683,16 @@ footer{
 
     .five-section{
 
+        margin: 0;
+
+        .cases{
+            .content-area{
+                img{
+                    max-height: 80px; 
+                }          
+            }
+        }
+
         .card {
             width: 90%;
             padding: 30px;
@@ -680,13 +706,30 @@ footer{
     }
 
     .six-section{
+        padding: 0;
 
         h2{
             width: 85%;
         }
 
-        .btn{
-            margin: 20px 0 40px;
+        // .btn{
+        //     margin: 20px 0 40px;
+        // }
+    }
+
+    .seven-section{
+        .cases{
+            .row{
+                .content-area{
+                    padding: 40px 30px;
+                }
+            }
+        }
+    }
+
+    .eight-section{
+        h2{
+            width: 100%;
         }
     }
 
