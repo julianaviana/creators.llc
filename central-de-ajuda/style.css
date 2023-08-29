@@ -180,6 +180,9 @@ header p {
 
 .faq {
   margin-top: 90px; }
+  .faq h2 span {
+    color: #9776FF;
+    font-weight: 500; }
   .faq .accordion-button {
     background: #232323;
     margin: 16px 0;
@@ -208,6 +211,15 @@ header p {
     opacity: 0.8; }
   .faq .accordion-body {
     padding: 8px 24px 24px; }
+    .faq .accordion-body p, .faq .accordion-body li {
+      font-weight: normal; }
+      .faq .accordion-body p a, .faq .accordion-body li a {
+        text-decoration: underline; }
+        .faq .accordion-body p a:visited, .faq .accordion-body li a:visited {
+          opacity: 0.9; }
+        .faq .accordion-body p a:hover, .faq .accordion-body li a:hover {
+          opacity: 0.9;
+          color: #fff; }
 
 footer {
   margin-top: 60px;
@@ -309,7 +321,7 @@ footer {
 
 #articles .hero .nav {
   border: 0; }
-  #articles .hero .nav .nav-item button {
+  #articles .hero .nav .nav-item a {
     font-size: 32px;
     font-weight: 500;
     line-height: 38px;
@@ -319,10 +331,10 @@ footer {
     padding: 0 0 10px;
     margin-right: 27px;
     border: 0; }
-    #articles .hero .nav .nav-item button.active {
+    #articles .hero .nav .nav-item a.active {
       opacity: 1;
       border-bottom: 3px solid #fff; }
-    #articles .hero .nav .nav-item button:hover {
+    #articles .hero .nav .nav-item a:hover {
       opacity: 1; }
 #articles .group-questions:last-child {
   padding-bottom: 100px; }

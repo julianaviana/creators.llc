@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Potencialize suas campanhas com um squad personalizado de influenciadores">
+        <meta name="keywords" content="HTML, CSS, JavaScript, bootstrap, flickity">
+        <meta name="author" content="Creators.llc">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Central de ajuda Creators | Dúvida de Creators</title>
+        <link rel="icon" href="./assets/image/favicon.svg">
+
+        <!-- Google tag (gtag.js) -->
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-626645894"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-626645894');
+        </script>
+            <!-- Event snippet for Agendar demo conversion page -->
+
+        <script>
+            var thankyouMessage = 'Obrigado pela inscrição!'
+            if(document.body.innerText.includes(thankyouMessage)){
+            console.log('Reunião solicitada');
+            gtag('event', 'conversion',
+            {'send_to': 'AW-626645894/_3uLCL-ZxLwDEIa356oC'});
+            };
+        </script>
+    </head>
+
+    <body id="articles">
+
+        <!-- Google Analytics -->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-90265209-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+        <header class="container">
+            <nav class="navbar navbar-expand-lg menu">
+                <a class="navbar-brand" href="https://creators.llc/" target="_blank">
+                    <img src="./assets/image/logo_creators.svg" alt="creators logo">
+                </a>
+                <!-- <label class="search">
+                    <img src="./assets/image/search.svg" alt="" aria-hidden="true">
+                    <input class="form-control" type="search" placeholder="Qual sua dúvida?" aria-label="Search">
+                </label> -->
+              </nav>
+        </header>
+
+        <section class="hero">
+            <div class="container">
+                <p><a href="index.html">Home Central de ajuda</a><span>/</span>Dúvidas de Creators</p>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="duvidas-de-creators.html">Creators</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="duvidas-de-empresas.html">Empresas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="duvidas-por-produto.html">Produtos</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="tab-content faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <h2 class="mb-5">
+                            Dúvidas de Creators
+                        </h2>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="accordion " id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    O que é a CREATORS?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                                <div class="accordion-body">
+                                    <p>
+                                        Creators é uma startup brasileira com a missão de empoderar criadores para que possam viver do compartilhamento de suas paixões. 
+                                        Creators é uma plataforma de marketing de influência que conecta criadores a marcas admiradas, como Google, Nubank e Amazon. 
+                                        Tudo através de tecnologia proprietária e curadoria especializada. 
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Tem algum custo para fazer parte da CREATORS?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                                <div class="accordion-body">
+                                  <p>Não! A CREATORS é uma plataforma gratuita. </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Como faço para me cadastrar como Creator?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                <div class="accordion-body">
+                                    <p>
+                                        É simples e fácil. Basta clicar no botão "Ser Creator" e seguir os passos para realizar o cadastro. 
+                                        Não esqueça de preencher todos os dados para deixar seu perfil completo.
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingfour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Quando começo a receber oportunidades?
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
+                                  <div class="accordion-body">
+                                    <p>
+                                        Após ter preenchido o seu cadastro completo e recebido a validação do seu perfil, as oportunidades de campanhas vão aparecer no seu dashboard. 
+                                        Lembrando que você receberá as ofertas que fizerem sentido para o seu perfil, de acordo com o preenchimento do seu cadastro. Você também poderá 
+                                        receber notificações via whatsapp e e-mail com essas oportunidades.
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingfive">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Por que tenho que enviar minha proposta via plataforma?
+                                  </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive">
+                                  <div class="accordion-body">
+                                    <p>Só assim conseguimos oferecer suporte e segurança para ambos. Nossos clientes cadastram os briefings na plataforma e fazem a aprovação dos perfis também por lá. 
+                                        É gerado automaticamente um contrato com os dados de contratação e seu pagamento é provisionado nesse mesmo instante. Assim, garantimos segurança para a empresa que contrata e para o creator também!</p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingsix">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Me inscrevi em uma proposta - e agora?
+                                  </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix">
+                                  <div class="accordion-body">
+                                    <p>
+                                        Logo após se inscrever na proposta disponível, o seu perfil é enviado para um processo de aprovação direto com os responsáveis pela marca da campanha. 
+                                        Eles avaliarão o seu perfil de acordo com os critérios internos da marca e, caso você seja aprovado, receberá uma notificação na plataforma e no seu e-mail cadastrado.
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingseven">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Como faço para visualizar as campanhas disponíveis?
+                                  </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven">
+                                  <div class="accordion-body">
+                                    <p>
+                                        ​​Você só conseguirá visualizar as oportunidades de campanha que façam sentido para o seu perfil,  
+                                        diretamente na plataforma <a href="creators.llc">Creators</a>. Você receberá notificações através de e-mail e whatsApp sobre essas oportunidades. 
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingeight">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    Sou empresário/agente - posso cadastrar todos perfis que eu agencio?
+                                  </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight">
+                                  <div class="accordion-body">
+                                    <p>
+                                        Claro, tem espaço para todos os seus agenciados e você pode fazer isso de uma forma muito simples, utilizando um cadastro em massa para cadastrar e administrar os diversos perfis que você cadastrou entrando em contato com <a href="mailto:hello@creators.llc">hello@creators.llc</a> ou crie perfis individuais para seus agenciados utilizando e-mails diferentes para cada perfil. 
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingnine">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                    Devo emitir nota fiscal? E quando?
+                                  </button>
+                                </h2>
+                                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine">
+                                  <div class="accordion-body">
+                                    <p>
+                                        Sim, na CREATORS só intermediamos serviços através da emissão de notas fiscais para serviços prestados no Brasil ou invoices para transações que não foram na moeda local. Assim que aprovado um contrato o time financeiro da CREATORS vai entrar em contato para auxiliar na emissão da nota fiscal e responder suas possíveis dúvidas.
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingten">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    Quando vou receber pelos meus serviços?
+                                  </button>
+                                </h2>
+                                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen">
+                                  <div class="accordion-body">
+                                    <p>
+                                        Quando sua proposta/contrato for aprovado você vai receber orientação sobre emissão da Nota Fiscal. 
+                                        Se você emitir a Nota Fiscal até o dia 10 do mês vigente, o vencimento do pagamento será no dia 20 do mês seguinte. 
+                                        Já se você emitir até o dia 20 do mês vigente, o vencimento será dia 10 do mês subsequente. Confira <a href="https://creators.llc/termos/#Remunera%C3%A7%C3%A3o" target="_blank">aqui</a> nossas regras de remuneração.
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingeleven">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                    Vou falar com humanos ao longo do processo?
+                                  </button>
+                                </h2>
+                                <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven">
+                                  <div class="accordion-body">
+                                    <p>
+                                        Com certeza! Nossa tecnologia de ponta tem como grande aliada a nossa equipe, 
+                                        que acompanhará e guiará você nos momentos certos de cada passo. E você poderá 
+                                        nos acionar a qualquer momento, vamos te dar suporte total.
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingtwelve">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                    Como vejo o modelo de contrato?
+                                  </button>
+                                </h2>
+                                <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve">
+                                  <div class="accordion-body">
+                                    <p>
+                                        O contrato é gerado na plataforma assim que você subir uma proposta. 
+                                        Você pode pré-visualizar o contrato ao clicar no botão VISUALIZAR CONTRATO, 
+                                        antes ou depois de enviar sua proposta para um briefing da plataforma CREATORS. 
+                                        O contrato tem apenas 2 páginas contendo um resumo da entrega e as principais cláusulas 
+                                        dos <a href="https://creators.llc/termos/" target="_blank">Termos de Uso</a> da plataforma CREATORS. Caso queira acrescentar alguma informação ou 
+                                        cláusula entre em contato com <a href="mailto:legal@creators.llc">legal@creators.llc</a> citando o número do briefing que podemos te ajudar.
+                                    </p>
+                                    <p>Assim que sua proposta for aprovada, você receberá um email de notificação, então já poderá acessar o site e visualizar seu contrato certinho.</p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingthirteen">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                    Como fica a gestão de conteúdo e mensuração de resultados?
+                                  </button>
+                                </h2>
+                                <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingthirteen">
+                                  <div class="accordion-body">
+                                    <p>Após ser aprovado para uma campanha, o time CREATORS vai entrar em contato para orientar sobre briefing, objetivos, cronograma de criação, produção, publicação e orientações sobre mensuração de resultados.</p>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <a href="./grupo-de-faq.html" class="btn btn-see-more mt-5">Ver as dúvidas </a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row justify-content-between footer">
+                    <div class="col-xl-9 col-md-8">
+                        <a href="https://creators.llc/" target="_blank">
+                            <img class="logo" src="./assets/image/logo-creators-footer.png" alt="CREATORS logo">
+                            <h3>POWERFUL INFLUENCE
+                                MARKETING PLATFORM</h3>
+                        </a>
+
+                        <div class="list-terms mt-md-5 mt-4">
+                            <a href="https://creators.llc/termos" target="_blank">Termos de
+                                uso e política de privacidade</a>
+                            <a href="mailto:hello@creators.llc">hello@creators.llc</a>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4 mt-4 mt-md-0 social-media">
+                        <a href="https://www.instagram.com/creators.llc/" target="_blank">
+                            <img src="./assets/image/instagram.svg" alt="Instagram logo">
+                        </a>
+                        <a href="https://www.linkedin.com/company/creators-llc/" target="_blank">
+                            <img src="./assets/image/linkedin.svg" alt="Linkedin logo">
+                        </a>
+                        <a href="https://www.facebook.com/creators.llc/" target="_blank">
+                            <img src="./assets/image/facebook.svg" alt="Facebook logo">
+                        </a>
+                        <a href="https://www.tiktok.com/@creators.llc" target="_blank">
+                            <img src="./assets/image/tiktok.svg" alt="TikTok logo">
+                        </a>
+                        <a href="https://www.youtube.com/@creatorsllc" target="_blank">
+                            <img src="./assets/image/youtube.svg" alt="youtube logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+        <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/36764c10-fe6d-4814-8c92-3bafbaf23a93-loader.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.369/build/spline-viewer.js"></script>
+    </body>
+</html>

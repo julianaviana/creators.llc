@@ -40,7 +40,7 @@
         </script>
     </head>
 
-    <body id="doubt">
+    <body id="articles">
 
         <!-- Google Analytics -->
         <script>
@@ -57,11 +57,10 @@
         <header class="container">
             <nav class="navbar navbar-expand-lg menu">
                 <a class="navbar-brand" href="https://creators.llc/" target="_blank">
-                    <img class="d-none d-md-block" src="../assets/image/logo_creators.svg" alt="creators logo">
-                    <img class="d-md-none d-block" src="../assets/image/short-logo_creators.svg" alt="creators logo">
+                    <img src="../assets/image/logo_creators.svg" alt="creators logo">
                 </a>
                 <!-- <label class="search">
-                    <img src="../assets/image/search.svg" alt="" aria-hidden="true">
+                    <img src="./assets/image/search.svg" alt="" aria-hidden="true">
                     <input class="form-control" type="search" placeholder="Qual sua dúvida?" aria-label="Search">
                 </label> -->
               </nav>
@@ -69,48 +68,59 @@
 
         <section class="hero">
             <div class="container">
-                <p><a href="../index.html">Home Central de ajuda</a><span>/</span><a href="../artigos.html">Dúvida de Creators</a><span>/</span>Creators Pay</p>
-                <div class="select-pages">
-                    <a href="../creators/index.html" >Creators</a>
-                    <a href="../empresas/index.html">Empresas</a>
-                    <a href="../produto/index.html" class="active">Produtos</a>
-                </div>
+              <p><a href="index.html">Home Central de ajuda</a><span>/</span><a href="../duvidas-por-produto.html">Dúvidas do Produto</a><span>/</span>Creators Academy</p>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../duvidas-de-creators.html">Creators</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../duvidas-de-empresas.html">Empresas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="../duvidas-por-produto.html">Produtos</a>
+                    </li>
+                </ul>
             </div>
         </section>
 
-        <section class="faq">
+        <section class="tab-content faq">
             <div class="container">
-                <div class="group-questions">
-                    <h1>Dúvidas de Creators <span>Pay</span></h1>
-                    <div class="row">
-                        <div class="col-12 col-lg-4">
-                            <h2 class="mb-5">
-                                Nome de um grupo de perguntas aqui
-                            </h2>
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <h2 class="mb-5">
+                          Dúvidas de Creators <span>Academy</span>
+                        </h2>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="accordion " id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Como contratar a CREATORS Academy?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                                <div class="accordion-body">
+                                    <p>
+                                      Esse é o serviço mais customizado da CREATORS - com objetivo de acelerar creators e torná-los porta-vozes de marcas ou organizações. Para nos contratar, você pode entrar em contato conosco através do e-mail <a href="mailto:hello@creators.llc">hello@creators.llc</a> e um de nossos especialistas entrará em contato com você.
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Sou creator - como faço parte de um programa de aceleração e mentoria?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                                <div class="accordion-body">
+                                  <p>As turmas dos programas são desenvolvidas a partir de curadorias individualizadas para cada projeto ou através de páginas de inscrição personalizadas. Se tiver um perfil na <a href="https://creators.llc" target="_blank">CREATORS</a> você receberá comunicados dos programas ativos.</p>
+                                </div>
+                              </div>
+                            </div>
                         </div>
-                        <div class="col-12 col-lg-7">
-                            <div class="questions">
-                                <a href="../artigos/quanto-custa-para-usar-a-creators-pay.html">
-                                    Quanto custa para usar a Creators Pay?
-                                </a>
-                            </div>
-                            <div class="questions">
-                                <a href="../artigos/de-quem-vou-receber-o-depósito-da-creators-pay-ou-do-meu-cliente.html">
-                                    De quem vou receber o depósito, da Creators Pay ou do meu cliente?
-                                </a>
-                            </div>
-                            <div class="questions">
-                                <a href="../artigos/vou-falar-com-humanos-ao-longo-do-processo.html">
-                                    Vou falar com humanos ao longo do processo?
-                                </a>
-                            </div>
-                            <div class="questions">
-                                <a href="#">
-                                    Sou freelancer. Posso usar a Creators Pay para fechar um job com meu cliente?
-                                </a>
-                            </div>
-                            <a href="./index.html" class="btn btn-see-more mt-4">Ver os 23 artigos</a>
-                        </div>
+                        <!-- <a href="./grupo-de-faq.html" class="btn btn-see-more mt-5">Ver as dúvidas </a> -->
                     </div>
                 </div>
             </div>

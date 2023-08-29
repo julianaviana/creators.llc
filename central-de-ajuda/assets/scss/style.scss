@@ -183,10 +183,10 @@ header{
         a{
             color: #E3E3E3;
 
-        font-size: 13px;
-        font-weight: 600;
-        line-height: 32px; 
-        text-decoration-line: underline;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 32px; 
+            text-decoration-line: underline;
         }
     }
 }
@@ -194,6 +194,13 @@ header{
 .faq{
 
     margin-top: 90px;
+
+    h2{
+        span{
+            color: #9776FF;
+            font-weight: 500;
+        }
+    }
 
     .accordion-button{
         background: #232323;
@@ -238,6 +245,23 @@ header{
 
     .accordion-body{
         padding: 8px 24px 24px;
+
+        p, li{
+            font-weight: normal;
+
+            a{
+                text-decoration: underline;
+
+                &:visited{
+                    opacity: 0.9;
+                }
+
+                &:hover{
+                    opacity: 0.9;
+                    color: #fff;
+                }
+            }
+        }
     }
 }
 
@@ -412,7 +436,7 @@ footer{
             border: 0;
             .nav-item{
                 
-               button{
+               a{
                 font-size: 32px;
                 font-weight: 500;
                 line-height: 38px;
