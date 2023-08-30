@@ -517,7 +517,7 @@ footer {
 
   #articles .hero {
     margin-top: 130px; }
-    #articles .hero .nav .nav-item button {
+    #articles .hero .nav .nav-item a {
       font-size: 22px;
       margin-right: 20px;
       border: 0; }
