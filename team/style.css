@@ -334,10 +334,10 @@ footer {
       padding-top: 10px; }
       footer ul li a {
         color: #8B90A0;
-        font-size: 16px;
-        font-weight: 500; }
+        font-size: 16px; }
         footer ul li a:hover {
-          color: #fff; }
+          color: #fff;
+          font-weight: 700; }
   footer .list-terms a {
     font-size: 13px;
     line-height: 16px;
