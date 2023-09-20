@@ -38,6 +38,7 @@ img{
     min-width: 200px;
     border-radius: 100px;
     text-align: center;
+    transition: transform .1s;
     
     &.primary{
         background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
@@ -62,6 +63,10 @@ img{
             color: #212121 ;
             background: #fff;
         }
+    }
+
+    &:hover{
+        transform: scale(1.1);
     }
 }
 
@@ -133,7 +138,7 @@ header{
 }
 
 .produts{
-    padding-top: 140px;
+    margin-top: 140px;
     .conection{
         height: 40px;
         margin: 0 auto 10px;
@@ -281,8 +286,9 @@ header{
         background-size: 100%;
         height: 180px;
         border: 1px solid transparent;
+        box-sizing: border-box;
         margin: 0 auto;
-        padding: 62px 32px 0;
+        padding: 62px 32px;
 
         .card-content{
             p{
@@ -298,9 +304,17 @@ header{
         .btn{
             border-radius: 59.259px;
             background: #212121;
+            opacity: 0.8;
             text-align: center;
             font-size: 13px;
             padding: 10px;
+
+            &:hover{
+
+                border: 1px solid transparent;
+                color: #fff;
+                opacity: 1;
+            }
         }
     }
 }
