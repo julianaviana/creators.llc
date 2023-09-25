@@ -113,6 +113,8 @@ img {
       background: #fff; }
   .btn:hover {
     transform: scale(1.1); }
+  .btn:visited {
+    color: #fff; }
 
 .btn-center {
   margin: 0;
@@ -250,7 +252,7 @@ header .navbar-expand-lg .navbar-collapse {
       line-height: 24px; }
 
 .be-part {
-  padding: 100px 0 200px; }
+  padding: 100px 0; }
   .be-part h2, .be-part p {
     text-align: center; }
   .be-part .card {
