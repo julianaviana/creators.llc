@@ -403,10 +403,20 @@ header {
         font-weight: 700; }
         .six-section .card .card_title h3 span {
           color: #9776FF; }
+      .six-section .card .card_title p {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        text-transform: uppercase;
+        margin: 0; }
     .six-section .card p {
       color: #E3E3E3;
       font-size: 15px;
       line-height: 28px; }
+    .six-section .card a {
+      color: #E3E3E3;
+      text-decoration: underline; }
 
 footer {
   margin-top: 140px;

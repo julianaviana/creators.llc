@@ -538,12 +538,26 @@ header{
                     color: #9776FF; 
                 }
             }
+
+            p{
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.75px;
+                text-transform: uppercase;
+                margin: 0;
+            }
         }
 
         p{
             color: #E3E3E3;
             font-size: 15px;
             line-height: 28px;
+        }
+
+        a{
+            color:#E3E3E3;
+            text-decoration: underline;
         }
 
 
