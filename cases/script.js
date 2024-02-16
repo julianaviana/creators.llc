@@ -300,3 +300,23 @@ $('.second-sicredi-reels').click(function(){
   $('html').css('overflow-y','hidden');
   $('body > div > video').attr("src","./assets/image/reels-sicredi-02.mp4");
 });
+
+//DM9
+
+$('.first-dm9-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-dm9-01.mp4");
+});
+
+$('.second-dm9-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-dm9-02.mp4");
+});
+
+$('.second-dm9-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-dm9-03.mp4");
+});
