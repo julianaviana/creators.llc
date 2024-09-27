@@ -59,6 +59,11 @@ p {
   color: #EFEBFF;
   opacity: 0.7; }
 
+ul li {
+  line-height: 28px;
+  color: #EFEBFF;
+  opacity: 0.7; }
+
 input, select {
   font-size: 18px;
   line-height: 21px;
@@ -319,6 +324,75 @@ header .navbar-expand-lg .navbar-collapse {
     margin: 12px 0; }
   .faq .accordion-body {
     padding: 8px 24px 24px; }
+
+.modais-vagas .modal-content {
+  background-color: transparent;
+  background: linear-gradient(230deg, #232323 17%, #27244d 100%);
+  border-radius: 16px; }
+  .modais-vagas .modal-content .modal-header {
+    border-bottom: transparent;
+    padding: 30px 30px 0 0; }
+    .modais-vagas .modal-content .modal-header .btn-close {
+      filter: invert(1); }
+  .modais-vagas .modal-content .modal-body .row {
+    align-items: flex-start; }
+  .modais-vagas .modal-content .modal-body .form-text, .modais-vagas .modal-content .modal-body .form-list li {
+    font-size: 16px; }
+  .modais-vagas .modal-content .modal-body h3, .modais-vagas .modal-content .modal-body strong {
+    color: #7553E2; }
+  .modais-vagas .modal-content .modal-body h4 {
+    font-weight: 600; }
+  .modais-vagas .modal-content .modal-body .btn {
+    min-width: 180px !important;
+    padding: 0; }
+  .modais-vagas .modal-content .modal-body #ff-compose {
+    background: #1C1E25;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    backdrop-filter: blur(20px);
+    max-width: 440px;
+    padding: 20px 0;
+    margin: 0 auto; }
+  .modais-vagas .modal-content .modal-body img.ff-banner-image.ff-image {
+    display: none; }
+  .modais-vagas .modal-content .modal-body .ff-form .ff-description p {
+    display: none; }
+  .modais-vagas .modal-content .modal-body .ff-layout-2column .ff-secfields, .modais-vagas .modal-content .modal-body .ff-layout-2column .ff-item-noprd.ff-part-width {
+    display: block !important; }
+  .modais-vagas .modal-content .modal-body .ff-qs-html-text, .modais-vagas .modal-content .modal-body label {
+    color: #EFEBFF; }
+  .modais-vagas .modal-content .modal-body .form-text, .modais-vagas .modal-content .modal-body .ff-layout-2column .ff-item-noprd.ff-part-width .ff-help, .modais-vagas .modal-content .modal-body .ff-form-check-label, .modais-vagas .modal-content .modal-body .ff-form .ff-item .ff-help {
+    color: #EFEBFF;
+    opacity: 0.7; }
+  .modais-vagas .modal-content .modal-body .ff-layout-2column .ff-item-noprd.ff-part-width .ff-widget-control {
+    color: #fff; }
+  .modais-vagas .modal-content .modal-body .form-control {
+    height: 40px !important; }
+  .modais-vagas .modal-content .modal-body .form-control, .modais-vagas .modal-content .modal-body .ff-form .ff-file-upload a.addfile {
+    border-radius: 15px;
+    background: #272A33;
+    border: 1px solid #272A33; }
+  .modais-vagas .modal-content .modal-body .ff-file-upload a.addfile {
+    padding: 5px 30px;
+    color: #EFEBFF;
+    opacity: 0.7; }
+  .modais-vagas .modal-content .modal-body .ff-form .ff-title, .modais-vagas .modal-content .modal-body .ff-form .ff-powered-img {
+    display: none !important;
+    opacity: 0; }
+  .modais-vagas .modal-content .modal-body .ff-form .ff-form-check {
+    display: flex; }
+  .modais-vagas .modal-content .modal-body .ff-form input[type=checkbox], .modais-vagas .modal-content .modal-body .ff-form input[type=radio] {
+    margin: 10px 5px 0 0; }
+  .modais-vagas .modal-content .modal-body .ff-form textarea {
+    height: 100px !important;
+    color: #EFEBFF; }
+  .modais-vagas .modal-content .modal-body .ff-form .ff-submit {
+    background-color: #7553E2;
+    border: 1px solid #7553E2;
+    min-width: 150px;
+    padding: 10px 20px !important; }
+  .modais-vagas .modal-content .modal-body .ff-form .ff-submit-icon {
+    display: none; }
 
 footer {
   margin-top: 140px;

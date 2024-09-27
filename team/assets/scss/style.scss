@@ -384,6 +384,131 @@ header{
     } 
 }
 
+.modais-vagas{
+    .modal-content{
+        background-color: transparent;
+        background: linear-gradient(230deg, rgba(35,35,35,1) 17%, rgba(39,36,77,1) 100%);
+        // background-image: url("assets/image/modal-background.png");
+        border-radius: 16px;
+
+        .modal-header{
+            border-bottom: transparent;
+            padding: 30px 30px 0 0;
+
+            .btn-close{
+                filter: invert(1);
+            }
+        }
+
+        .modal-body{
+
+            .row{
+                align-items: flex-start;
+            }
+
+            .form-text, .form-list li{
+                font-size: 16px;
+            }
+
+            h3, strong{
+                color: #7553E2;
+            }
+
+            h4{
+                font-weight: 600;
+            }
+
+            .btn{
+                min-width: 180px !important;
+                padding: 0;
+            }
+            
+
+            #ff-compose{
+                background: #1C1E25;
+                border-radius: 16px;
+                border: 1px solid rgba(255, 255, 255, 0.17);
+                backdrop-filter: blur(20px);
+                max-width: 440px;
+                padding: 20px 0;
+                margin: 0 auto;
+            }
+
+            img.ff-banner-image.ff-image {
+                display: none;
+            }
+
+            .ff-form .ff-description p{
+                display: none;
+            }
+
+            .ff-layout-2column .ff-secfields, .ff-layout-2column .ff-item-noprd.ff-part-width{
+                display: block !important;
+            }
+
+            .ff-qs-html-text, label{
+                color: #EFEBFF;
+            }
+
+            .form-text, .ff-layout-2column .ff-item-noprd.ff-part-width .ff-help, .ff-form-check-label, .ff-form .ff-item .ff-help{
+                color: #EFEBFF;
+                opacity: 0.7;
+            }
+
+            .ff-layout-2column .ff-item-noprd.ff-part-width .ff-widget-control{
+                color: #fff;
+            }
+
+            .form-control{
+                height: 40px !important;
+            }
+
+            .form-control, .ff-form .ff-file-upload a.addfile {
+                border-radius: 15px;
+                background: #272A33;
+                border: 1px solid #272A33;
+            }
+
+            .ff-file-upload a.addfile{
+                padding: 5px 30px;
+                color: #EFEBFF;
+                opacity: 0.7;
+            }
+
+            .ff-form{
+                .ff-title, .ff-powered-img{
+                    display: none !important;
+                    opacity: 0;
+                }
+
+                .ff-form-check{
+                    display: flex;
+                }
+
+                input[type=checkbox], input[type=radio]{
+                    margin: 10px 5px 0 0;
+                }
+
+                textarea{
+                    height: 100px !important;
+                    color: #EFEBFF;
+                }
+
+                .ff-submit{
+                    background-color: #7553E2;  
+                    border: 1px solid #7553E2;
+                    min-width: 150px;
+                    padding: 10px 20px !important;
+                }
+
+                .ff-submit-icon{
+                    display: none;
+                }
+            }
+
+        }
+    }
+}
 footer{
     margin-top: 140px;
     border-top: 1px solid #3E465F;
