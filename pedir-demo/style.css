@@ -41,7 +41,8 @@ input, select {
   color: #5D6472; }
 
 body {
-  background: #111; }
+  background: url("assets/image/bg-home.webp") no-repeat, #111;
+  background-size: contain; }
 
 a {
   text-decoration: none; }
