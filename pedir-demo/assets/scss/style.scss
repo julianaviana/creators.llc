@@ -21,12 +21,12 @@ header{
 }
 
 .btn{
-    padding: 16px 24px;
-    font-size: 16px;
+    padding: 14px 24px;
+    font-size: 17px;
     color: #fff;
     font-weight: 600;
     min-width: 200px;
-    width: 300px;
+    width: 265px;
     margin: 0 auto;
     display: block;
     transition: transform .1s;
@@ -564,6 +564,26 @@ header{
     }
 }
 
+.seven-section{
+    padding-top: 140px;
+    background: url("assets/image/bg-blur.png");
+    background-size: contain;
+    background-position: right;
+
+
+    p{
+        color: #EFEBFF;
+        font-size: 18px;
+        opacity: 0.7;
+        font-weight: 400;
+    }
+
+    .btn{
+        margin: 0 auto;
+        float: left;
+    }
+}
+
 footer{
     margin-top: 140px;
     border-top: 1px solid #3E465F;
@@ -789,6 +809,25 @@ input#rd-radio_buttons_field-lfqukqbt_Mais_de_5000__funcionários{
 
         .button-group{
             display: none;
+        }
+    }
+
+    .seven-section{
+        padding: 0;
+        background-position: bottom;
+
+        h2{
+            font-size: 23px;
+        }
+
+        p{
+            br{
+                display: none;
+            }
+        }
+
+        img{
+            padding-top: 50px;
         }
     }
 
