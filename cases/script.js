@@ -320,3 +320,37 @@ $('.second-dm9-reels').click(function(){
   $('html').css('overflow-y','hidden');
   $('body > div > video').attr("src","./assets/image/reels-dm9-03.mp4");
 });
+
+
+// AliExperts 
+
+$('.first-ali-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-ali-01.mp4");
+  });
+  
+  $('.second-ali-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-ali-02.mp4");
+  });
+
+  $('.third-ali-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-ali-03.mp4");
+  });
+
+  $('.fourth-ali-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-ali-04.mp4");
+  });
+
+  $('.five-ali-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-ali-05.mp4");
+  });
+    
