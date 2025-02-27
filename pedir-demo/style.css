@@ -112,7 +112,7 @@ header {
     border-radius: 100px;
     width: 100%;
     border: none;
-    font-size: 18px !important;
+    font-size: 16px !important;
     line-height: 22px;
     text-align: center;
     color: #FFF; }
@@ -144,7 +144,7 @@ header {
     padding: 20px 0 60px;
     height: 120px; }
     .first-section .form .ff-form .ff-success p {
-      font-size: 18px;
+      font-size: 16px;
       color: #5D6472;
       padding: 10px 0; }
   .first-section .form .ff-form .ff-success + div {
@@ -163,6 +163,27 @@ header {
   opacity: 0.7;
   font-weight: 400;
   line-height: 28px; }
+.first-section span {
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 16px;
+  background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%); }
+.first-section ul {
+  list-style: none;
+  padding-left: 0; }
+  .first-section ul li {
+    color: #fff;
+    opacity: 0.7;
+    font-size: 18px;
+    padding: 0 0 10px; }
+    .first-section ul li::before {
+      content: "✔";
+      /* Ícone de check */
+      color: green;
+      /* Cor do check */
+      font-weight: bold;
+      margin-right: 8px; }
 
 .second-section {
   padding: 100px 0 0; }
@@ -555,7 +576,7 @@ input#rd-radio_buttons_field-lfqukqbt_Mais_de_5000__funcionários {
   background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%); }
 
 #rd-button-lfqsenfp {
-  font-size: 18px !important; }
+  font-size: 16px !important; }
 
 @media only screen and (max-width: 820px) {
   header {
