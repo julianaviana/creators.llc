@@ -1,7 +1,8 @@
 @import 'fonts';
 
 body{
-    background: url("assets/image/bg-home.webp") no-repeat, #111;
+    background: radial-gradient(circle at top left, #1a0d2b 0%, #0F0F0F 40%, #0F0F0F 100%);
+    // background: url("assets/image/bg-home.webp") no-repeat, #111;
     background-size: contain;
 }
 
@@ -18,7 +19,7 @@ img{
 }
 
 header{
-    padding: 60px 0 100px;
+    padding: 60px 0 80px;
 }
 
 .btn{
