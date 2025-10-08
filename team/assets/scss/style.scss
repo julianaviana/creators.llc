@@ -433,6 +433,15 @@ header{
                 padding: 20px 0;
                 margin: 0 auto;
             }
+            #ff-compose-test{
+                background: #1C1E25;
+                border-radius: 16px;
+                border: 1px solid rgba(255, 255, 255, 0.17);
+                backdrop-filter: blur(20px);
+                max-width: 440px;
+                padding: 20px 0;
+                margin: 0 auto;
+            }
 
             img.ff-banner-image.ff-image {
                 display: none;
