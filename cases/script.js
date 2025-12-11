@@ -372,7 +372,7 @@ $('.first-loreal-reels').click(function(){
   $('.third-loreal-reels').click(function(){
     $('.modalvideo').css('display','flex');
     $('html').css('overflow-y','hidden');
-    $('body > div > video').attr("src","./assets/image/reels-ali-03.mp4");
+    $('body > div > video').attr("src","./assets/image/reels-loreal-03.mp4");
   });
 
   $('.fourth-loreal-reels').click(function(){
