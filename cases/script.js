@@ -378,12 +378,12 @@ $('.first-loreal-reels').click(function(){
   $('.fourth-loreal-reels').click(function(){
     $('.modalvideo').css('display','flex');
     $('html').css('overflow-y','hidden');
-    $('body > div > video').attr("src","./assets/image/reels-ali-04.mp4");
+    $('body > div > video').attr("src","./assets/image/reels-loreal-04.mp4");
   });
 
   $('.five-loreal-reels').click(function(){
     $('.modalvideo').css('display','flex');
     $('html').css('overflow-y','hidden');
-    $('body > div > video').attr("src","./assets/image/reels-ali-05.mp4");
+    $('body > div > video').attr("src","./assets/image/reels-loreal-05.mp4");
   });
     
