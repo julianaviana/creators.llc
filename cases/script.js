@@ -353,4 +353,37 @@ $('.first-ali-reels').click(function(){
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-ali-05.mp4");
   });
+
+
+  // Loreal
+
+$('.first-loreal-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-loreal-01.mp4");
+  });
+  
+  $('.second-loreal-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-loreal-02.mp4");
+  });
+
+  $('.third-loreal-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-ali-03.mp4");
+  });
+
+  $('.fourth-loreal-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-ali-04.mp4");
+  });
+
+  $('.five-loreal-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-ali-05.mp4");
+  });
     
