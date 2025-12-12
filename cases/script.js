@@ -413,10 +413,4 @@ $('.first-vitru-reels').click(function(){
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-vitru-04.mp4");
   });
-
-  $('.five-vitru-reels').click(function(){
-    $('.modalvideo').css('display','flex');
-    $('html').css('overflow-y','hidden');
-    $('body > div > video').attr("src","./assets/image/reels-vitru-05.mp4");
-  });
     
