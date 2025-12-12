@@ -387,3 +387,36 @@ $('.first-loreal-reels').click(function(){
     $('body > div > video').attr("src","./assets/image/reels-loreal-05.mp4");
   });
     
+
+  // Vitru
+
+$('.first-vitru-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-vitru-01.mp4");
+  });
+  
+  $('.second-vitru-reels').click(function(){
+  $('.modalvideo').css('display','flex');
+  $('html').css('overflow-y','hidden');
+  $('body > div > video').attr("src","./assets/image/reels-vitru-02.mp4");
+  });
+
+  $('.third-vitru-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-vitru-03.mp4");
+  });
+
+  $('.fourth-vitru-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-vitru-04.mp4");
+  });
+
+  $('.five-vitru-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-vitru-05.mp4");
+  });
+    
