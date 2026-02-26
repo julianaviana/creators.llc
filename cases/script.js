@@ -413,4 +413,36 @@ $('.first-vitru-reels').click(function(){
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-vitru-04.mp4");
   });
+
+    // Tasty shorts
+
+  $('.tasty-video').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/case-tasty.mp4");
+  });
+
+  $('.first-vitru-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-tasty-01.mp4");
+  });
+  
+  $('.second-vitru-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-tasty-02.mp4");
+  });
+
+  $('.third-vitru-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-tasty-03.mp4");
+  });
+
+  $('.fourth-vitru-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-tasty-04.mp4");
+  });
     
