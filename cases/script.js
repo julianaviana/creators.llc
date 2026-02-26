@@ -518,6 +518,18 @@ $('.first-vitru-reels').click(function(){
     $('body > div > video').attr("src","./assets/image/reels-xaomi-case-04.mp4");
   });
 
+    $('.five-xaomi-case-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-xaomi-case-05.mp4");
+  });
+
+    $('.sixth-xaomi-case-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-xaomi-case-06.mp4");
+  });
+
 
 
 
