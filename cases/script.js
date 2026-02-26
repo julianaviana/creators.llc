@@ -471,4 +471,27 @@ $('.first-vitru-reels').click(function(){
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-ifood-04.mp4");
   });
+
+  //TIM
+
+    $('.first-tim-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-tim-01.mp4");
+  });
+  
+  $('.second-tim-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-tim-02.mp4");
+  });
+
+  $('.third-tim-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-tim-03.mp4");
+  });
+
+
+
     
