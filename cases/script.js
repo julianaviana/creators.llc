@@ -445,4 +445,30 @@ $('.first-vitru-reels').click(function(){
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-tasty-04.mp4");
   });
+
+  // ifood
+
+  $('.first-ifood-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-ifood-01.mp4");
+  });
+  
+  $('.second-ifood-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-ifood-02.mp4");
+  });
+
+  $('.third-ifood-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-ifood-03.mp4");
+  });
+
+  $('.fourth-ifood-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-ifood-04.mp4");
+  });
     
