@@ -416,31 +416,31 @@ $('.first-vitru-reels').click(function(){
 
     // Tasty shorts
 
-  $('.tasty-video').click(function(){
-    $('.modalvideo').css('display','flex');
-    $('html').css('overflow-y','hidden');
-    $('body > div > video').attr("src","./assets/image/case-tasty.mp4");
-  });
+  // $('.tasty-video').click(function(){
+  //   $('.modalvideo').css('display','flex');
+  //   $('html').css('overflow-y','hidden');
+  //   $('body > div > video').attr("src","./assets/image/case-tasty.mp4");
+  // });
 
-  $('.first-vitru-reels').click(function(){
+  $('.first-tasty-reels').click(function(){
     $('.modalvideo').css('display','flex');
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-tasty-01.mp4");
   });
   
-  $('.second-vitru-reels').click(function(){
+  $('.second-tasty-reels').click(function(){
     $('.modalvideo').css('display','flex');
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-tasty-02.mp4");
   });
 
-  $('.third-vitru-reels').click(function(){
+  $('.third-tasty-reels').click(function(){
     $('.modalvideo').css('display','flex');
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-tasty-03.mp4");
   });
 
-  $('.fourth-vitru-reels').click(function(){
+  $('.fourth-tasty-reels').click(function(){
     $('.modalvideo').css('display','flex');
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-tasty-04.mp4");
