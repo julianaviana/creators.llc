@@ -492,6 +492,33 @@ $('.first-vitru-reels').click(function(){
     $('body > div > video').attr("src","./assets/image/reels-tim-03.mp4");
   });
 
+    //xaomi
+
+    $('.first-xaomi-case-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-xaomi-case-01.mp4");
+  });
+  
+  $('.second-xaomi-case-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-xaomi-case-02.mp4");
+  });
+
+  $('.third-xaomi-case-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-xaomi-case-03.mp4");
+  });
+
+    $('.fourth-xaomi-case-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-xaomi-case-04.mp4");
+  });
+
+
 
 
     
