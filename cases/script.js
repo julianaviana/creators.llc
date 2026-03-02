@@ -530,6 +530,44 @@ $('.first-vitru-reels').click(function(){
     $('body > div > video').attr("src","./assets/image/reels-xaomi-case-06.mp4");
   });
 
+  //TIM The Town
+
+    $('.first-the-town-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-the-town-01.mp4");
+  });
+  
+  $('.second-the-town-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-the-town-02.mp4");
+  });
+
+  $('.third-the-town-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-the-town-03.mp4");
+  });
+
+    $('.fourth-the-town-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-the-town-04.mp4");
+  });
+
+    $('.five-the-town-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-the-town-05.mp4");
+  });
+
+    $('.sixth-the-town-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-the-town-06.mp4");
+  });
+
 
 
 
