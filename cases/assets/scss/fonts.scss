@@ -1,24 +1,24 @@
 @font-face {
-    font-family: "SF Pro Display Bold";
-    src: url("./fonts/SF-Pro-Display-Bold.OTF") format("opentype");
+    font-family: "Outfit";
+    src: url("./fonts/Outfit-Regular.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: "SF Pro Display Medium";
-    src: url("./fonts/SF-Pro-Display-Medium.OTF") format("opentype");
+    font-family: "Outfit Medium";
+    src: url("./fonts/Outfit-Medium.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: "SF Pro Display";
-    src: url("./fonts/SF-Pro-Display-Regular.OTF") format("opentype");
+    font-family: "Outfit Bold";
+    src: url("./fonts/Outfit-Bold.ttf") format('truetype');
 }
 
 h1, h2, h3, a, .btn{
-    font-family: 'SF Pro Display Bold';  
+    font-family: 'Outfit Bold';  
 }
 
 p, input, select{
-    font-family: 'SF Pro Display';
+    font-family: 'Outfit';
 }
 
 h1{
