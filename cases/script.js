@@ -569,30 +569,62 @@ $('.first-vitru-reels').click(function(){
   });
 
 
-      //xaomi redmi note 15
+    //xaomi redmi note 15
 
-    $('.first-xaomi-case-reels').click(function(){
+    $('.first-redmi-note-15').click(function(){
     $('.modalvideo').css('display','flex');
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-xaomi-redmi-note-15-01.mp4");
   });
   
-  $('.second-xaomi-case-reels').click(function(){
+  $('.second-redmi-note-15').click(function(){
     $('.modalvideo').css('display','flex');
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-xaomi-redmi-note-15-02.mp4");
   });
 
-  $('.third-xaomi-case-reels').click(function(){
+  $('.third-redmi-note-15').click(function(){
     $('.modalvideo').css('display','flex');
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-xaomi-redmi-note-15-03.mp4");
   });
 
-    $('.fourth-xaomi-case-reels').click(function(){
+    $('.fourth-redmi-note-15').click(function(){
     $('.modalvideo').css('display','flex');
     $('html').css('overflow-y','hidden');
     $('body > div > video').attr("src","./assets/image/reels-xaomi-redmi-note-15-04.mp4");
+  });
+
+    // Rede cria
+
+    $('.first-rede-cria-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-rede-cria-01.mp4");
+  });
+  
+  $('.second-rede-cria-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-rede-cria-02.mp4");
+  });
+
+  $('.third--rede-cria-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-rede-cria-03.mp4");
+  });
+
+    $('.fourth-rede-cria-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-rede-cria-04.mp4");
+  });
+
+      $('.five-rede-cria-reels').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-rede-cria-05.mp4");
   });
 
 
