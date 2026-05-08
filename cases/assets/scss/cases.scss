@@ -285,7 +285,22 @@
 
     .five-section{
         border-top: 1px solid #3E465F;
-        padding: 90px 0 130px
+        padding: 90px 0 0;
+
+        h2{
+            -webkit-text-fill-color: transparent;
+            background: linear-gradient(-89.84deg, #a0fbea 5.32%, #3ca1ff 50.36%, #a21fff 99.93%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            font-size: 50px;
+            font-family: Crimson Pro, serif;
+            font-style: italic;
+        }
+
+        h3{
+            font-family: 'Outfit';
+            line-height: inherit;
+        }
     }
 
     .six-section{
@@ -596,6 +611,15 @@
                 }
             }
         }
+
+            .five-section{
+        border-top: 1px solid #3E465F;
+        padding: 90px 0 0;
+
+        h2{
+            font-size: 32px;
+        }
+    }
 
         .seven-section{
             h2{
