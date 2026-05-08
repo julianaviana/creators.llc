@@ -595,18 +595,6 @@ $('.first-vitru-reels').click(function(){
     $('body > div > video').attr("src","./assets/image/reels-xaomi-redmi-note-15-04.mp4");
   });
 
-    $('.five-xaomi-case-reels').click(function(){
-    $('.modalvideo').css('display','flex');
-    $('html').css('overflow-y','hidden');
-    $('body > div > video').attr("src","./assets/image/reels-xaomi-redmi-note-15-05.mp4");
-  });
-
-    $('.sixth-xaomi-case-reels').click(function(){
-    $('.modalvideo').css('display','flex');
-    $('html').css('overflow-y','hidden');
-    $('body > div > video').attr("src","./assets/image/reels-xaomi-redmi-note-15-06.mp4");
-  });
-
 
 
 
