@@ -627,6 +627,31 @@ $('.first-vitru-reels').click(function(){
     $('body > div > video').attr("src","./assets/image/reels-rede-cria-05.mp4");
   });
 
+   //Poco x8 pro
+
+    $('.first-poco-x8-pro').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-poco-x8-pro-01.mp4");
+  });
+  
+  $('.second-poco-x8-pro').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-poco-x8-pro-02.mp4");
+  });
+
+  $('.third-poco-x8-pro').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-poco-x8-pro-03.mp4");
+  });
+
+    $('.fourth-poco-x8-pro').click(function(){
+    $('.modalvideo').css('display','flex');
+    $('html').css('overflow-y','hidden');
+    $('body > div > video').attr("src","./assets/image/reels-poco-x8-pro-04.mp4");
+  });
 
 
 
